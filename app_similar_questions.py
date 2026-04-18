@@ -185,7 +185,7 @@ Trả về ĐÚNG MỘT OBJECT JSON tuân thủ chính xác Schema của dạng 
         try:
             response_text = client.send_data_to_AI(
                 prompt=prompt,
-                temperature=0.2,
+                temperature=0.1,
                 response_schema=wrapper_schema
             )
             
