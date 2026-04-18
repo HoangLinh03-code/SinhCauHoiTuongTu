@@ -595,12 +595,12 @@ Trả về ĐÚNG MỘT OBJECT JSON tuân thủ chính xác Schema của dạng 
             self.log_message.emit(f"🖼️ Quota hình ảnh: {len(image_indices)}/{total_items} câu ({self.image_pct}%)")
             
             # Gán image_instruction cho từng task
-            IMAGE_YES = """ LỆNH CƯỠNG CHẾ: BẮT BUỘC PHẢI SINH HÌNH ẢNH cho câu hỏi này nếu đề gốc có hình.
+            IMAGE_YES = """BẮT BUỘC PHẢI SINH HÌNH ẢNH cho câu hỏi này nếu đề gốc có hình.
 → Đặt "co_hinh": true cho các property tương ứng (hinh_anh, hinh_anh_giai_thich, hinh_anh_goi_y) và "loai": "tu_mo_ta"
 → "mo_ta": Mô tả chi tiết hình ảnh bằng TIẾNG ANH (diagram, graph, table...). TUYỆT ĐỐI KHÔNG ĐỂ TRỐNG.
 → VÍ DỤ: "A bar chart showing the comparison of rainfall in four seasons" hoặc "A variation table of a quadratic function".
 → NẾU đề gốc có hình ở lời giải, PHẢI sinh hinh_anh_giai_thich."""
-            IMAGE_NO = """ LỆNH CƯỠNG CHẾ: TUYỆT ĐỐI KHÔNG ĐƯỢC SINH HÌNH ẢNH cho câu hỏi này.
+            IMAGE_NO = """TUYỆT ĐỐI KHÔNG ĐƯỢC SINH HÌNH ẢNH cho câu hỏi này.
 → "co_hinh": false cho mọi trường hình ảnh.
 → NGHIÊM CẤM đặt co_hinh = true."""
             
