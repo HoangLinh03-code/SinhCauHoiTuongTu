@@ -1,0 +1,1202 @@
+[
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11fffc"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 1,
+                    "noi_dung": "Một hội đồng khoa học đang phân loại các đề tài nghiên cứu để tài trợ. Họ nhận được một danh sách các lĩnh vực sau: Cơ học, Hóa học hữu cơ, Quang học, Di truyền học, Âm học, Vật lí hạt nhân, Thuyết tương đối, và Thạch học (nghiên cứu về đá). Để đảm bảo các đề tài được gửi đúng chuyên ban, hội đồng cần xác định chính xác có bao nhiêu lĩnh vực trong danh sách này thuộc đối tượng nghiên cứu của Vật lí học. Hãy cho biết con số đó.",
+                    "dap_an": "5",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Để xác định số lĩnh vực thuộc Vật lí học, chúng ta cần sàng lọc danh sách đã cho. Các lĩnh vực được liệt kê bao gồm Cơ học, Hóa học hữu cơ, Quang học, Di truyền học, Âm học, Vật lí hạt nhân, Thuyết tương đối, và Thạch học. Trong số này, các lĩnh vực là đối tượng nghiên cứu của Vật lí bao gồm: Cơ học (nghiên cứu về chuyển động và lực), Quang học (nghiên cứu về ánh sáng), Âm học (nghiên cứu về âm thanh), Vật lí hạt nhân và Thuyết tương đối. Các lĩnh vực còn lại như Hóa học hữu cơ, Di truyền học và Thạch học lần lượt thuộc về Hóa học, Sinh học và Địa chất học. Do đó, có tổng cộng 5 lĩnh vực thuộc về Vật lí.\n**Vậy số lĩnh vực thuộc đối tượng nghiên cứu của Vật lí học là 5.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11fff8"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 2,
+                    "doan_thong_tin": "Trong một buổi sinh hoạt của câu lạc bộ khoa học, các bạn học sinh đang thảo luận sôi nổi về nguồn gốc và bản chất của các môn khoa học tự nhiên. Một bạn nêu lên câu hỏi về Vật lí học, một ngành khoa học nền tảng. Cuộc thảo luận xoay quanh từ nguyên của thuật ngữ 'vật lí', đối tượng nghiên cứu chính và vai trò của nó trong việc tìm hiểu thế giới tự nhiên. Một số nhận định đã được đưa ra để làm rõ hơn về lĩnh vực khoa học quan trọng này.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Thuật ngữ 'vật lí' có nguồn gốc từ tiếng Hy Lạp cổ 'physikos', mang ý nghĩa là 'kiến thức về tự nhiên'.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Đối tượng nghiên cứu của Vật lí học chỉ giới hạn ở các dạng chuyển động cơ học của vật chất mà không bao gồm năng lượng và các tương tác.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Vật lí học được xếp vào nhóm khoa học xã hội vì nó nghiên cứu các quy luật chung nhất của thế giới tự nhiên.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Vật lí học được coi là một ngành khoa học tự nhiên cơ bản, làm nền tảng cho nhiều lĩnh vực khoa học và công nghệ khác như hóa học, thiên văn học và kỹ thuật.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1001",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Nguồn gốc từ nguyên của thuật ngữ 'vật lí' chính xác là từ 'physikos' trong tiếng Hy Lạp, có nghĩa là 'tự nhiên' hoặc 'kiến thức về tự nhiên'. Điều này phản ánh đúng bản chất ban đầu của Vật lí học là khoa học tìm hiểu về các quy luật cơ bản vận hành thế giới tự nhiên. Tên gọi này cho thấy phạm vi bao quát rộng lớn của vật lí, từ các hạt hạ nguyên tử đến toàn bộ vũ trụ, nhấn mạnh vai trò của nó như một môn khoa học khám phá bản chất của thực tại vật chất."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Phạm vi nghiên cứu của Vật lí học vô cùng rộng lớn, không chỉ giới hạn ở chuyển động cơ học. Trên thực tế, đối tượng chính của vật lí là vật chất, năng lượng và mối quan hệ tương tác giữa chúng. Nó bao gồm nhiều lĩnh vực như nhiệt học, điện từ học, quang học, vật lí lượng tử và thuyết tương đối. Việc giới hạn vật lí chỉ trong phạm vi chuyển động cơ học là một quan niệm sai lầm, bỏ qua phần lớn các hiện tượng và quy luật cơ bản mà ngành khoa học này nghiên cứu."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Vật lí học thuộc nhóm khoa học tự nhiên, không phải khoa học xã hội. Khoa học tự nhiên tập trung nghiên cứu các hiện tượng, quy luật của thế giới vật chất, khách quan. Ngược lại, khoa học xã hội nghiên cứu về xã hội loài người, hành vi và các mối quan hệ giữa các cá nhân và tập thể. Mặc dù các quy luật vật lí là chung nhất và có ảnh hưởng đến mọi mặt, nhưng phương pháp và đối tượng nghiên cứu của nó hoàn toàn nằm trong lĩnh vực tự nhiên, dựa trên quan sát, thực nghiệm và mô hình toán học."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Vật lí học được xem là ngành khoa học nền tảng bởi vì các nguyên lí và định luật của nó chi phối hoạt động của các hệ thống ở mọi quy mô. Ví dụ, các nguyên lí của vật lí lượng tử và điện từ học là cơ sở để giải thích các liên kết hóa học và phản ứng trong hóa học. Tương tự, các định luật về hấp dẫn và cơ học chi phối chuyển động của các thiên thể trong thiên văn học. Trong kỹ thuật, hầu hết mọi phát minh, từ động cơ đến thiết bị điện tử, đều dựa trên việc ứng dụng các nguyên lí vật lí."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tu_luan",
+        "du_lieu": {
+            "loai_de": "tu_luan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11fffd"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 3,
+                    "noi_dung": "Trong một buổi thảo luận học thuật, một nhóm học sinh được giao nhiệm vụ phân tích các hiện tượng tự nhiên để tìm ra một ví dụ minh họa toàn diện nhất cho đối tượng nghiên cứu của Vật lí. Các đối tượng này bao gồm ba thành phần cốt lõi: vật chất, năng lượng và sự vận động của chúng. Nhóm đã đưa ra bốn hiện tượng: (1) Sự nóng chảy của một khối băng; (2) Quá trình quang hợp ở lá cây; (3) Chuyển động của Trái Đất quanh Mặt Trời; (4) Hiện tượng sấm sét trong khí quyển. Hãy xác định chỉ số (số thứ tự) của hiện tượng thể hiện đầy đủ cả ba khía cạnh trên.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Đối tượng nghiên cứu của Vật lí bao gồm vật chất, năng lượng và sự vận động của chúng. Để một hiện tượng được coi là minh họa toàn diện, nó phải chứa đựng cả ba yếu tố này. Xét hiện tượng sấm sét (4): 'Vật chất' là các hạt mang điện (electron, ion) trong không khí. 'Năng lượng' là thế năng tĩnh điện khổng lồ được giải phóng dưới dạng nhiệt, ánh sáng (tia sét) và âm thanh (tiếng sấm). 'Sự vận động' là dòng chuyển dời có hướng của các hạt mang điện tạo thành dòng điện cực lớn. Các hiện tượng còn lại chỉ thể hiện nổi bật một hoặc hai khía cạnh.\n**Vậy hiện tượng thể hiện đầy đủ nhất cả ba khía cạnh là hiện tượng sấm sét, tương ứng với chỉ số 4.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tu_luan",
+        "du_lieu": {
+            "loai_de": "tu_luan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c120003"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 4,
+                    "noi_dung": "Một tàu nghiên cứu khoa học đang thực hiện nhiệm vụ khảo sát hải dương học trên một tuyến đường thẳng. Tàu xuất phát từ điểm A lúc 7 giờ sáng và đến điểm B lúc 12 giờ trưa cùng ngày. Dựa vào hệ thống định vị GPS, thuyền trưởng xác định được quãng đường di chuyển giữa hai điểm A và B là $125$ km. Dựa trên các nguyên lý của cơ học về chuyển động, hãy xác định tốc độ trung bình của con tàu trong suốt hành trình này. Trình bày các bước tính toán và cho biết kết quả cuối cùng theo đơn vị $km/h$.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Để xác định tốc độ trung bình của tàu, ta áp dụng công thức cơ bản trong cơ học: $v_{tb} = \\frac{S}{t}$, trong đó $S$ là tổng quãng đường đi được và $t$ là tổng thời gian di chuyển. Trước hết, cần tính tổng thời gian di chuyển của tàu: $t = 12 \\text{ giờ} - 7 \\text{ giờ} = 5 \\text{ giờ}$. Quãng đường đã cho là $S = 125 \\, km$. Thay các giá trị vào công thức, ta có: $v_{tb} = \\frac{125}{5} = 25 \\, km/h$.\n**Vậy tốc độ trung bình của con tàu trong suốt hành trình là $25 \\, km/h$.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c120000"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 5,
+                    "doan_thong_tin": "Vật lí học, một trong những ngành khoa học cơ bản nhất, không chỉ dừng lại ở việc nghiên cứu các quy luật của tự nhiên từ vi mô đến vĩ mô. Ngày nay, các nguyên lý và thành tựu của Vật lí đã thâm nhập sâu rộng vào mọi khía cạnh của đời sống và công nghệ. Từ việc thiết kế các thiết bị điện tử, phát triển nguồn năng lượng mới, đến việc chế tạo các công cụ chẩn đoán y khoa tiên tiến, Vật lí luôn đóng vai trò nền tảng, cung cấp cơ sở lý thuyết và phương pháp luận cho nhiều lĩnh vực khoa học và kỹ thuật khác.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Đối tượng nghiên cứu chính của Vật lí học là các dạng vận động của vật chất và năng lượng, cùng với các quy luật tổng quát chi phối sự tương tác giữa chúng trong thế giới tự nhiên.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Vật lí học được xếp vào nhóm khoa học xã hội vì các khám phá của nó, như hiệu ứng nhà kính, có tác động trực tiếp và sâu sắc đến đời sống và cấu trúc xã hội loài người.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Mọi thành tựu công nghệ hiện đại, từ điện thoại thông minh đến công nghệ sinh học, đều là ứng dụng trực tiếp và duy nhất của các phát kiến trong lĩnh vực Vật lí.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Phương pháp nghiên cứu đặc trưng của Vật lí học là sự kết hợp chặt chẽ giữa quan sát thực nghiệm để thu thập dữ liệu và xây dựng mô hình lý thuyết toán học để giải thích, tiên đoán các hiện tượng.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1001",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây là một định nghĩa chính xác và bao quát về Vật lí học. Với tư cách là một khoa học tự nhiên, nó tập trung tìm hiểu bản chất của thế giới vật chất bằng cách khảo sát các dạng tồn tại cơ bản như vật chất, năng lượng, không gian và thời gian. Thông qua việc nghiên cứu các dạng vận động từ chuyển động cơ học của các thiên thể đến sự tương tác của các hạt hạ nguyên tử, Vật lí xây dựng nên những định luật phổ quát. Những định luật này không chỉ mô tả mà còn giúp tiên đoán các hiện tượng tự nhiên, tạo nền tảng vững chắc cho khoa học và công nghệ."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Khẳng định này không chính xác. Mặc dù các hiện tượng Vật lí như hiệu ứng nhà kính có tác động sâu sắc đến xã hội, bản chất của Vật lí học vẫn là một ngành khoa học tự nhiên. Nó nghiên cứu các quy luật vật chất và năng lượng chi phối các hiện tượng đó, sử dụng phương pháp thực nghiệm và mô hình toán học. Việc nghiên cứu tác động xã hội của những hiện tượng này thuộc về lĩnh vực khoa học xã hội (như kinh tế học, xã hội học). Do đó, việc phân loại Vật lí là khoa học xã hội dựa trên ảnh hưởng của nó là một sự nhầm lẫn về đối tượng và phương pháp nghiên cứu."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Khẳng định này là một sự khái quát hóa quá mức và không đúng. Công nghệ là một lĩnh vực đa ngành, là kết quả của sự tổng hợp kiến thức từ nhiều ngành khoa học khác nhau. Trong khi Vật lí cung cấp những nguyên lý nền tảng quan trọng cho nhiều công nghệ (như điện tử, năng lượng, quang học), các ngành khác như Hóa học (vật liệu mới, pin), Sinh học (công nghệ sinh học, y dược), và Khoa học máy tính (phần mềm, trí tuệ nhân tạo) cũng đóng vai trò không thể thiếu. Do đó, không thể nói rằng công nghệ chỉ là ứng dụng của riêng Vật lí."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây là một mô tả chính xác về phương pháp luận cốt lõi của Vật lí học. Quá trình nghiên cứu vật lí là một vòng lặp biện chứng giữa lý thuyết và thực nghiệm. Các nhà vật lí tiến hành quan sát và thí nghiệm để thu thập các dữ kiện khách quan về một hiện tượng. Dựa trên những dữ kiện này, họ xây dựng các giả thuyết và mô hình lý thuyết, thường được biểu diễn bằng ngôn ngữ toán học. Các mô hình này sau đó lại được kiểm chứng bằng các thí nghiệm mới, tinh vi hơn. Sự kết hợp này đảm bảo tính khách quan và sức mạnh tiên đoán của khoa học vật lí."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c120001"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 6,
+                    "noi_dung": "Một học sinh đang lên danh sách các ý tưởng cho cuộc thi khoa học kỹ thuật. Danh sách gồm các đề tài sau: (1) Nghiên cứu ảnh hưởng của nhiệt độ đến tốc độ phản ứng hóa học; (2) Phân tích quỹ đạo của vật được ném xiên; (3) Khảo sát quá trình quang hợp ở thực vật thủy sinh; (4) Đo lường sự phụ thuộc của điện trở vào chiều dài dây dẫn; (5) Quan sát hiện tượng giao thoa của sóng ánh sáng; (6) Tìm hiểu về sự phân tầng trong xã hội cổ đại. Hỏi có bao nhiêu đề tài thuộc lĩnh vực nghiên cứu của Vật lí?",
+                    "dap_an": "3",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Vật lí học là ngành khoa học nghiên cứu về các dạng vận động, năng lượng, và tương tác của vật chất trong tự nhiên. Để xác định các đề tài thuộc lĩnh vực Vật lí, ta cần phân loại từng ý tưởng. Các đề tài (2) Phân tích quỹ đạo chuyển động, (4) Nghiên cứu về điện trở, và (5) Quan sát hiện tượng sóng ánh sáng đều là những đối tượng nghiên cứu cốt lõi của Vật lí, lần lượt thuộc các phân ngành Cơ học, Điện học và Quang học. Ngược lại, đề tài (1) thuộc Hóa học, (3) thuộc Sinh học, và (6) thuộc Xã hội học.\n**Vậy có 3 đề tài thuộc lĩnh vực nghiên cứu của Vật lí.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "630306b7910b817d8dc1e28f"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 7,
+                    "noi_dung": "Một nhà sử học công nghệ đang phân loại các cột mốc phát triển kỹ thuật qua các thời kỳ. Dưới đây là danh sách các thành tựu và đặc điểm nổi bật trong lịch sử công nghiệp hóa: (1) Sự ra đời và phổ biến của máy tính cá nhân; (2) Phát minh động cơ hơi nước, cơ giới hóa ngành dệt; (3) Tự động hóa dây chuyền sản xuất bằng robot và hệ thống điều khiển lập trình; (4) Sự phát triển của Internet và mạng lưới thông tin toàn cầu; (5) Ứng dụng rộng rãi điện năng và dây chuyền lắp ráp hàng loạt. Hỏi có bao nhiêu đặc điểm trong danh sách trên là biểu tượng cốt lõi của cuộc Cách mạng công nghiệp lần thứ ba?",
+                    "dap_an": "3",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Cuộc Cách mạng công nghiệp lần thứ ba, hay Cách mạng Kỹ thuật số, bắt đầu từ giữa thế kỷ 20, được định hình bởi sự phát triển của chất bán dẫn, máy tính và Internet. Do đó, các đặc điểm thuộc về cuộc cách mạng này trong danh sách bao gồm: sự ra đời của máy tính cá nhân, tự động hóa dây chuyền sản xuất bằng robot, và sự phát triển của Internet. Các đặc điểm còn lại không thuộc về giai đoạn này; cụ thể, động cơ hơi nước là của Cách mạng công nghiệp lần thứ nhất và dây chuyền lắp ráp hàng loạt là của lần thứ hai.\n**Vậy có 3 đặc điểm trong danh sách là biểu tượng cốt lõi của cuộc Cách mạng công nghiệp lần thứ ba.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tu_luan",
+        "du_lieu": {
+            "loai_de": "tu_luan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "630306b7910b817d8dc1e28e"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 8,
+                    "noi_dung": "Một công ty công nghệ nông nghiệp đang triển khai một hệ thống canh tác thông minh. Hệ thống này bao gồm các cảm biến độ ẩm trong đất, drone giám sát sức khỏe cây trồng và các robot tự hành bón phân. Toàn bộ các thiết bị này được kết nối không dây với một máy chủ trung tâm. Dữ liệu từ cảm biến và drone được phân tích bởi trí tuệ nhân tạo (AI) để ra quyết định và gửi lệnh điều khiển đến các robot. Dựa trên mô tả, hãy xác định và gọi tên chính xác khái niệm công nghệ đóng vai trò là mạng lưới kết nối và truyền thông cho tất cả các thiết bị này, một đặc trưng cốt lõi của Cách mạng công nghiệp lần thứ tư.",
+                    "hinh_anh": {
+                        "co_hinh": true,
+                        "mo_ta": "Sơ đồ một trang trại thông minh. Ở trung tâm là biểu tượng đám mây có chữ 'Máy chủ AI'. Các mũi tên hai chiều kết nối máy chủ này với các thiết bị khác: một chiếc drone đang bay, một cảm biến cắm trong đất và một robot tự hành đang di chuyển trên mặt đất. Sơ đồ minh họa luồng dữ liệu và lệnh điều khiển giữa các thành phần."
+                    },
+                    "giai_thich": "Khái niệm công nghệ được áp dụng là Internet vạn vật (Internet of Things - IoT). Đây là mạng lưới kết nối các thiết bị vật lý (cảm biến, drone, robot) với nhau và với internet, cho phép chúng thu thập và trao đổi dữ liệu. Trong hệ thống canh tác thông minh này, IoT tạo ra một hệ sinh thái kỹ thuật số, nơi dữ liệu từ môi trường (độ ẩm, hình ảnh cây trồng) được thu thập và truyền đến trung tâm xử lý (máy chủ AI), sau đó các lệnh điều khiển được gửi đến các thiết bị chấp hành (robot) để thực hiện hành động một cách tự động và tối ưu.\n**Vậy khái niệm công nghệ cốt lõi đóng vai trò mạng lưới kết nối trong hệ thống này là Internet vạn vật (IoT).**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c120006"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 9,
+                    "doan_thong_tin": "An, một học sinh lớp 12 đam mê khoa học, đang tìm hiểu về các ngành học ở bậc đại học để định hướng tương lai. An đặc biệt quan tâm đến cấu trúc vi mô của vật chất, từ các phân tử, nguyên tử cho đến các hạt hạ nguyên tử. Để có lựa chọn đúng đắn giữa các ngành như Vật lí, Hóa học, và Khoa học vật liệu, An cần phân biệt rõ ràng đối tượng và phạm vi nghiên cứu cốt lõi của từng lĩnh vực. Dưới đây là một số nhận định An đã tổng hợp được trong quá trình tìm hiểu.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Lĩnh vực Vật lí học, đặc biệt là Vật lí hạt nhân và Vật lí nguyên tử, tập trung nghiên cứu các thành phần cơ bản của hạt nhân (proton, neutron), các lực tương tác giữa chúng và các quá trình biến đổi năng lượng bên trong nguyên tử.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Ngành Hóa học chủ yếu nghiên cứu về sự phân rã của hạt nhân nguyên tử để tạo ra các nguyên tố mới và giải phóng năng lượng.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Mọi hiện tượng liên quan đến các electron của nguyên tử, như sự thay đổi trạng thái năng lượng hay quỹ đạo, đều hoàn toàn thuộc phạm vi nghiên cứu của Hóa học.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Trong khi Hóa học quan tâm đến cách các nguyên tử kết hợp với nhau thông qua liên kết hóa học, Vật lí học lại đi sâu vào cấu trúc nội tại và các quy luật vật lí chi phối chính bản thân nguyên tử đó.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1001",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây là một mô tả chính xác. Vật lí nguyên tử, phân tử và quang học nghiên cứu về bản thân các nguyên tử, các tương tác của chúng với nhau và với ánh sáng. Mặt khác, Vật lí hạt nhân đi sâu hơn vào cấu trúc và các tương tác của hạt nhân nguyên tử, bao gồm các hạt thành phần là proton và neutron, lực hạt nhân mạnh và yếu, các hiện tượng như phóng xạ, phân hạch và tổng hợp hạt nhân. Do đó, việc nghiên cứu cấu trúc và năng lượng của nguyên tử và hạt nhân là đối tượng cốt lõi của Vật lí học."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Nhận định này đã nhầm lẫn giữa phạm vi của Hóa học và Vật lí hạt nhân. Hóa học chủ yếu tập trung vào lớp vỏ electron của nguyên tử, nghiên cứu cách các nguyên tử tương tác, hình thành liên kết hóa học để tạo ra phân tử và các hợp chất, cũng như các phản ứng hóa học làm thay đổi các liên kết này. Các quá trình liên quan đến sự thay đổi trong hạt nhân như phân rã phóng xạ, phân hạch, tổng hợp hạt nhân thuộc về lĩnh vực Vật lí hạt nhân, không phải là đối tượng nghiên cứu chính của Hóa học."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Nhận định này không chính xác vì sử dụng từ \"hoàn toàn\". Cả Vật lí và Hóa học đều nghiên cứu về electron. Vật lí nguyên tử nghiên cứu các tính chất cơ bản của electron trong nguyên tử như mức năng lượng, các trạng thái lượng tử, mô men từ, và sự tương tác của chúng với bức xạ điện từ (quang phổ). Trong khi đó, Hóa học tập trung vào vai trò của electron, đặc biệt là các electron hóa trị, trong việc hình thành liên kết hóa học và quyết định tính chất hóa học của các nguyên tố và hợp chất. Do đó, đây là lĩnh vực giao thoa giữa hai ngành."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Nhận định này đã phân biệt chính xác trọng tâm của hai ngành khoa học. Hóa học có thể được xem là khoa học về các phân tử và sự biến đổi của chúng, nơi nguyên tử là đơn vị xây dựng cơ bản. Ngược lại, Vật lí học tìm hiểu các quy luật cơ bản chi phối chính các đơn vị xây dựng đó. Vật lí trả lời câu hỏi \"Tại sao nguyên tử lại có cấu trúc và tính chất như vậy?\", trong khi Hóa học trả lời câu hỏi \"Các nguyên tử với những tính chất đó sẽ tương tác và kết hợp với nhau như thế nào?\"."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "630306b7910b817d8dc1e290"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "nhan_biet",
+                    "stt": 10,
+                    "doan_thong_tin": "Bảo tàng Lịch sử Công nghệ đang chuẩn bị một triển lãm chuyên đề về các cuộc cách mạng công nghiệp và tác động của chúng đến xã hội loài người. Một phần quan trọng của triển lãm tập trung vào giai đoạn bùng nổ công nghệ sau Chiến tranh thế giới thứ hai, đánh dấu sự ra đời của cuộc cách mạng công nghiệp lần thứ ba (Công nghiệp 3.0). Giai đoạn này được xác định bởi sự phát triển và phổ biến của điện tử, máy tính và tự động hóa sản xuất. Các chuyên gia đang thảo luận để xác định các mốc thời gian và đặc điểm chính xác nhất để trình bày cho công chúng.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Cuộc cách mạng công nghiệp lần thứ ba được khởi xướng vào khoảng những năm 70 của thế kỷ XX.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Đặc trưng cốt lõi của cuộc cách mạng công nghiệp lần thứ ba là sự phát minh ra động cơ hơi nước và cơ giới hóa sản xuất.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Sự xuất hiện của Internet và World Wide Web vào cuối thế kỷ XX là sự kiện khởi đầu cho cuộc cách mạng công nghiệp lần thứ ba.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Một trong những thành tựu tiêu biểu của Công nghiệp 3.0 là việc ứng dụng rộng rãi robot công nghiệp và hệ thống điều khiển tự động vào sản xuất.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1010",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Các nhà sử học công nghệ đồng thuận rằng cuộc cách mạng công nghiệp lần thứ ba bắt đầu từ những năm 1970. Mốc thời gian này gắn liền với sự ra đời của bộ điều khiển logic khả trình (PLC) và vi xử lý, tạo tiền đề cho tự động hóa sản xuất và sự phát triển của máy tính cá nhân. Đây là bước chuyển mình từ công nghệ analog, cơ và điện tử đơn giản sang công nghệ kỹ thuật số, làm thay đổi căn bản các ngành công nghiệp và mở ra kỷ nguyên số hóa."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Động cơ hơi nước và cơ giới hóa sản xuất là những đặc trưng cơ bản của cuộc cách mạng công nghiệp lần thứ nhất, diễn ra vào cuối thế kỷ XVIII và đầu thế kỷ XIX. Trong khi đó, cuộc cách mạng công nghiệp lần thứ ba được định hình bởi các công nghệ hoàn toàn khác, bao gồm điện tử, công nghệ thông tin, máy tính và tự động hóa. Sự nhầm lẫn giữa các đặc trưng này cho thấy sự thiếu hiểu biết về các giai đoạn phát triển công nghệ lịch sử."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Sự ra đời và phổ biến của Internet cùng World Wide Web là một trong những đỉnh cao và là động lực phát triển mạnh mẽ của cuộc cách mạng công nghiệp lần thứ ba. Nó đã tạo ra một cuộc cách mạng trong giao tiếp, lưu trữ và truy cập thông tin, thúc đẩy toàn cầu hóa và tạo ra các mô hình kinh doanh mới. Mặc dù không phải là điểm khởi đầu duy nhất, nhưng nó là một yếu tố cốt lõi định hình giai đoạn phát triển sau này của Công nghiệp 3.0."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Việc ứng dụng robot và hệ thống tự động là một thành tựu của Công nghiệp 3.0, nhưng không phải là đặc trưng duy nhất và không phải lúc nào cũng được áp dụng rộng rãi ngay từ đầu. Các yếu tố khác như sự phát triển của máy tính cá nhân, phần mềm và mạng máy tính cũng đóng vai trò quan trọng không kém. Việc coi robot là thành tựu tiêu biểu duy nhất sẽ làm giảm tầm quan trọng của các khía cạnh khác thuộc về công nghệ thông tin và truyền thông trong cuộc cách mạng này."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11fff9"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 11,
+                    "doan_thong_tin": "Một nhóm học sinh đang thực hiện một dự án khoa học để tham gia hội thi cấp trường. Đề tài của họ là 'Khảo sát sự bảo toàn cơ năng của con lắc đơn'. Trong quá trình chuẩn bị, các bạn đã có một cuộc thảo luận sôi nổi về mục đích sâu xa của việc nghiên cứu các hiện tượng tự nhiên như chuyển động của con lắc. Họ muốn hiểu rõ tại sao các nhà khoa học lại dành thời gian quan sát, đo đạc và phân tích những sự kiện diễn ra trong thế giới vật chất. Cuộc thảo luận xoay quanh bản chất của khoa học tự nhiên và mục tiêu cuối cùng mà nó hướng tới.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Mục tiêu cốt lõi của việc nghiên cứu các hiện tượng tự nhiên là khám phá và mô tả các quy luật định lượng, phổ quát chi phối sự vận động của thế giới vật chất.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Mục tiêu hàng đầu của khoa học tự nhiên là tạo ra các giải pháp công nghệ để giải quyết ngay lập tức các vấn đề thực tiễn trong đời sống và sản xuất.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Nghiên cứu khoa học tự nhiên cũng bao gồm việc giải thích các quy luật vận động và phát triển của xã hội loài người.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Từ việc tìm ra các quy luật, khoa học tự nhiên cho phép con người dự báo được các hiện tượng và chủ động hơn trong thế giới tự nhiên.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1001",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây là mục tiêu cơ bản và trọng tâm nhất của khoa học tự nhiên. Hoạt động nghiên cứu khoa học hướng đến việc tìm ra những quy luật chung, có thể biểu diễn bằng toán học, nhằm mô tả một cách chính xác và nhất quán cách thức thế giới vật chất vận hành. Ví dụ, định luật vạn vật hấp dẫn của Newton không chỉ mô tả quả táo rơi mà còn mô tả chuyển động của các hành tinh. Việc tìm ra các quy luật này chính là quá trình xây dựng hệ thống tri thức khoa học, làm nền tảng cho mọi hiểu biết và ứng dụng sau này."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Đây là mục tiêu của kỹ thuật và công nghệ, không phải là mục tiêu hàng đầu của khoa học tự nhiên. Khoa học tự nhiên tập trung vào việc 'hiểu' thế giới (khoa học cơ bản), trong khi kỹ thuật tập trung vào việc 'thay đổi' thế giới để phục vụ con người (khoa học ứng dụng). Mặc dù các phát kiến khoa học là nền tảng cho công nghệ, nhưng mục đích ban đầu của nhà khoa học là tìm kiếm tri thức và sự thật, chứ không nhất thiết phải là tạo ra một sản phẩm hay giải pháp tức thời cho các vấn đề thực tiễn."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Việc giải thích các quy luật vận động và phát triển của xã hội loài người thuộc về lĩnh vực khoa học xã hội (như xã hội học, kinh tế học, nhân chủng học), không phải khoa học tự nhiên. Khoa học tự nhiên giới hạn đối tượng nghiên cứu của mình trong thế giới vật chất, bao gồm các hiện tượng vật lý, hóa học, sinh học. Sự phân chia này là cần thiết do đối tượng, phương pháp luận và các quy luật chi phối hai lĩnh vực này là hoàn toàn khác biệt, không thể đánh đồng với nhau."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây là một hệ quả và cũng là một mục tiêu quan trọng của việc tìm ra các quy luật tự nhiên. Khi đã nắm được quy luật, con người có khả năng dự đoán các sự kiện trong tương lai. Ví dụ, dựa vào các quy luật về khí tượng, chúng ta có thể dự báo thời tiết. Dựa vào các quy luật thiên văn, chúng ta dự báo được nhật thực, nguyệt thực. Khả năng dự báo này giúp con người có thể chuẩn bị, ứng phó, và khai thác các hiện tượng tự nhiên một cách hiệu quả và chủ động hơn, giảm thiểu rủi ro."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11fffb"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 12,
+                    "doan_thong_tin": "Trong một cuộc thi khoa học kỹ thuật, một học sinh tên An thực hiện dự án chế tạo mô hình tuabin gió mini để phát điện. An đã tự tìm hiểu các nguyên lý khí động học, áp dụng các công thức vật lí để thiết kế hình dạng tối ưu cho cánh quạt. Sau khi lắp đặt, An tiến hành đo hiệu điện thế và cường độ dòng điện tạo ra để tính toán công suất và hiệu suất của mô hình. Cuối cùng, An trình bày về tiềm năng ứng dụng của mô hình này tại các vùng sâu vùng xa và chia sẻ mong muốn trở thành một kĩ sư năng lượng tái tạo.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Việc An nghiên cứu nguyên lý khí động học và dùng công thức để thiết kế cánh quạt là biểu hiện của thành phần kiến thức và kĩ năng trong năng lực vật lí.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Hành động đo đạc các thông số điện và tính toán hiệu suất của tuabin thể hiện năng lực vận dụng kiến thức vật lí để giải quyết vấn đề thực tiễn.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Việc An suy ngẫm về ứng dụng thực tế và định hướng nghề nghiệp trong tương lai là một biểu hiện của năng lực tìm hiểu tự nhiên, hoàn toàn tách biệt với năng lực vật lí.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Năng lực vật lí của An được đánh giá chủ yếu thông qua việc tuân thủ các quy định về tư tưởng chính trị trong quá trình thực hiện dự án khoa học.",
+                            "dung": false
+                        }
+                    ],
+                    "dap_an_dung_sai": "1100",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây là một biểu hiện cốt lõi của năng lực vật lí. Việc nắm vững và áp dụng các kiến thức nền tảng như nguyên lý khí động học, cùng với việc sử dụng các kĩ năng toán học và công thức vật lí để giải quyết một bài toán thiết kế cụ thể (tối ưu hóa cánh quạt) cho thấy học sinh đã hình thành được cấu phần kiến thức và kĩ năng. Đây là bước đầu tiên và cơ bản nhất trong việc phát triển năng lực chuyên môn, chuyển hóa lý thuyết sách vở thành hành động có mục đích và hiệu quả trong thực tế."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Năng lực vật lí không chỉ dừng lại ở việc biết và hiểu lý thuyết, mà còn phải thể hiện qua khả năng áp dụng vào các tình huống cụ thể để khám phá hoặc giải quyết vấn đề. Trong trường hợp này, An không chỉ chế tạo ra sản phẩm mà còn tiến hành thực nghiệm (đo đạc) và phân tích dữ liệu (tính toán hiệu suất). Quá trình này chính là một chu trình giải quyết vấn đề hoàn chỉnh, thể hiện rõ nét năng lực vận dụng kiến thức đã học vào bối cảnh thực tiễn, một thành phần quan trọng của năng lực vật lí."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Năng lực vật lí bao gồm cả khả năng nhận ra giá trị và ý nghĩa của vật lí trong đời sống, từ đó định hướng được sở trường và nghề nghiệp. Việc An liên hệ dự án của mình với các vấn đề xã hội (cung cấp điện cho vùng sâu vùng xa) và xác định được hướng đi cho tương lai (kĩ sư năng lượng) là một biểu hiện ở mức độ cao của năng lực vật lí. Nó cho thấy học sinh không chỉ học vật lí như một môn học mà còn thấy được vai trò của nó và vị trí của bản thân trong thế giới."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Năng lực vật lí được đánh giá dựa trên các tiêu chí khoa học như mức độ nắm vững kiến thức, khả năng vận dụng, kĩ năng thực hành, tư duy logic và giải quyết vấn đề. Các yếu tố liên quan đến tư tưởng chính trị không phải là thước đo để đánh giá năng lực chuyên môn trong lĩnh vực khoa học tự nhiên như vật lí. Việc nhầm lẫn giữa tiêu chí khoa học và các tiêu chí xã hội, chính trị sẽ làm sai lệch bản chất của việc đánh giá năng lực, không phản ánh đúng trình độ và khả năng thực sự của người học."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11fffa"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 13,
+                    "doan_thong_tin": "Trong một buổi hội thảo khoa học dành cho học sinh, An đang chuẩn bị bài thuyết trình về chủ đề \"Vai trò của Vật lí trong thế giới hiện đại\". Mục tiêu của An là chỉ ra rằng các nguyên lý vật lí không chỉ là lý thuyết sách vở mà còn là nền tảng cho nhiều công nghệ và giải pháp cho các vấn đề toàn cầu. An đưa ra một số ví dụ thực tiễn để minh họa cho tầm quan trọng và phạm vi ứng dụng của việc học tập môn Vật lí. Dưới đây là các nhận định An dự định trình bày.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Việc nghiên cứu và phát triển các tấm pin mặt trời để chuyển hóa quang năng thành điện năng là một ứng dụng trực tiếp của kiến thức vật lí về năng lượng.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Vật lí học cung cấp các công cụ và lý thuyết cốt lõi để giải thích quá trình đột biến gen trong sinh học phân tử.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Để thiết kế các tòa nhà cao tầng có khả năng chống chịu động đất, các kỹ sư phải vận dụng sâu sắc kiến thức vật lí về dao động và sóng cơ học.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Phân tích các quy luật cung-cầu và biến động giá cả của thị trường chứng khoán là một trong những lĩnh vực nghiên cứu chính của vật lí kinh tế.",
+                            "dung": false
+                        }
+                    ],
+                    "dap_an_dung_sai": "1010",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Nguyên tắc hoạt động của pin mặt trời dựa trên hiệu ứng quang điện, một hiện tượng vật lí lượng tử. Trong đó, các photon ánh sáng mặt trời khi va chạm vào vật liệu bán dẫn sẽ truyền năng lượng cho các electron, giải phóng chúng và tạo ra dòng điện. Toàn bộ quá trình này, từ bản chất của ánh sáng (sóng-hạt), sự tương tác năng lượng, đến việc tạo ra dòng điện, đều là những đối tượng nghiên cứu cơ bản và quan trọng của vật lí học, đặc biệt trong các lĩnh vực quang học, điện từ học và vật lí chất rắn."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Quá trình đột biến gen là đối tượng nghiên cứu của sinh học, cụ thể là di truyền học và sinh học phân tử. Nó liên quan đến những thay đổi trong trình tự DNA, cấu trúc nhiễm sắc thể và các cơ chế di truyền. Mặc dù vật lí có thể cung cấp các công cụ kỹ thuật cao như kính hiển vi điện tử để quan sát cấu trúc phân tử, nhưng việc giải thích nguyên nhân, cơ chế và hậu quả của đột biến gen thuộc về lĩnh vực sinh học. Vật lí không trực tiếp nghiên cứu các quy luật di truyền hay tương tác sinh hóa ở cấp độ gen."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Động đất gây ra các sóng địa chấn lan truyền trong lòng đất và trên bề mặt, tác động lực lên các công trình xây dựng. Việc thiết kế tòa nhà chống động đất đòi hỏi phải tính toán chính xác tần số dao động riêng của công trình để tránh hiện tượng cộng hưởng nguy hiểm khi tần số này trùng với tần số của sóng địa chấn. Các kỹ sư phải áp dụng các nguyên lý về dao động cơ học, sự truyền sóng, độ bền vật liệu và cơ học kết cấu, tất cả đều là những nhánh quan trọng của vật lí ứng dụng."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Việc phân tích quy luật cung-cầu và biến động giá cả thị trường là đối tượng nghiên cứu của kinh tế học, một ngành khoa học xã hội. Mặc dù có một lĩnh vực liên ngành gọi là \"vật lí kinh tế\" (econophysics) sử dụng các mô hình thống kê từ vật lí để nghiên cứu thị trường tài chính, nhưng đây không phải là lĩnh vực nghiên cứu chính của vật lí. Nhiệm vụ cốt lõi của vật lí là nghiên cứu các quy luật cơ bản của tự nhiên liên quan đến vật chất, năng lượng, không gian và thời gian, không phải các quy luật về hành vi kinh tế của con người."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11fffe"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 14,
+                    "doan_thong_tin": "Trong một buổi thảo luận nhóm sau giờ học Vật lí đầu tiên, bốn bạn học sinh đang trao đổi về mục tiêu của môn học này. Các bạn tập trung vào khái niệm 'năng lực vật lí' mà giáo viên đã nhấn mạnh. Đây là một năng lực phức hợp, không chỉ bao gồm kiến thức mà còn cả kỹ năng và thái độ cần thiết để giải quyết các vấn đề trong học tập và đời sống liên quan đến vật lí. Dưới đây là một số nhận định được đưa ra trong buổi thảo luận.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Năng lực vật lí bao gồm khả năng vận dụng kiến thức, kĩ năng đã học để giải quyết thành công một vấn đề thực tiễn, chẳng hạn như giải thích nguyên lí hoạt động của một thiết bị điện trong gia đình.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Phát triển năng lực vật lí chỉ đơn thuần là việc ghi nhớ và thuộc lòng tất cả các định luật, công thức vật lí có trong sách giáo khoa.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Một biểu hiện quan trọng của năng lực vật lí là khả năng đề xuất các giả thuyết, thiết kế và thực hiện các thí nghiệm đơn giản để kiểm chứng các giả thuyết đó.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Mục tiêu cuối cùng của việc học vật lí là để trở thành nhà khoa học, do đó năng lực vật lí không thực sự cần thiết cho những người theo đuổi các ngành nghề khác.",
+                            "dung": false
+                        }
+                    ],
+                    "dap_an_dung_sai": "1010",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Năng lực vật lí không chỉ dừng lại ở kiến thức lý thuyết mà cốt lõi là khả năng ứng dụng kiến thức đó vào thực tế. Việc có thể phân tích và giải thích các hiện tượng, nguyên lý hoạt động của thiết bị trong đời sống là minh chứng rõ ràng cho thấy người học đã chuyển hóa được kiến thức sách vở thành công cụ tư duy và giải quyết vấn đề. Đây chính là một trong những mục tiêu quan trọng nhất của việc dạy và học vật lí, thể hiện sự thành thạo và làm chủ tri thức khoa học."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Việc chỉ ghi nhớ và thuộc lòng các định luật, công thức là một cách học thụ động và chỉ hình thành kiến thức ở mức độ nhận biết. Năng lực vật lí đòi hỏi cao hơn thế, nó bao gồm tư duy phản biện, khả năng phân tích, tổng hợp, đánh giá và vận dụng kiến thức một cách linh hoạt vào các tình huống đa dạng. Nếu chỉ thuộc lòng, người học sẽ không thể giải quyết được những vấn đề mới, phức tạp hoặc các bài toán đòi hỏi sự sáng tạo, vốn là bản chất của khoa học."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây là một biểu hiện của năng lực thành phần tìm hiểu thế giới tự nhiên dưới góc độ vật lí. Khả năng đặt ra câu hỏi (giả thuyết) và tìm cách trả lời nó thông qua thực nghiệm là cốt lõi của phương pháp khoa học. Kỹ năng này cho thấy người học không chỉ tiếp thu kiến thức một cách bị động mà còn có thể chủ động khám phá, kiểm chứng và chiếm lĩnh tri thức. Nó rèn luyện tư duy logic, tính cẩn thận, khách quan và là nền tảng cho các hoạt động nghiên cứu khoa học sau này."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Kiến thức và tư duy vật lí có tính ứng dụng rộng rãi trong rất nhiều lĩnh vực chứ không chỉ giới hạn trong ngành khoa học. Các ngành kỹ thuật, y khoa, công nghệ thông tin, tài chính, và nhiều ngành khác đều đòi hỏi tư duy logic, khả năng phân tích hệ thống và kỹ năng giải quyết vấn đề mà việc học vật lí mang lại. Do đó, hình thành năng lực vật lí giúp trang bị cho người học một công cụ tư duy sắc bén, hữu ích cho nhiều con đường sự nghiệp khác nhau trong tương lai."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c11ffff"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 15,
+                    "doan_thong_tin": "Trong một buổi sinh hoạt của câu lạc bộ thiên văn học, các bạn học sinh được quan sát mô hình của hiện tượng nhật thực. Giáo viên giải thích rằng khi Mặt Trăng đi vào giữa Mặt Trời và Trái Đất, nó sẽ tạo ra hai vùng bóng trên bề mặt Trái Đất: một vùng bóng tối hoàn toàn (umbra) và một vùng bóng nửa tối (penumbra) bao quanh. Hiện tượng này không chỉ là một quang cảnh kỳ thú mà còn là một ví dụ trực quan sinh động về các quy luật cơ bản của vật lí liên quan đến sự truyền ánh sáng.",
+                    "hinh_anh": {
+                        "co_hinh": true,
+                        "mo_ta": "Sơ đồ mô tả hiện tượng nhật thực. Mặt Trời là nguồn sáng lớn ở bên trái. Mặt Trăng ở giữa, chắn ánh sáng từ Mặt Trời. Trái Đất ở bên phải. Từ Mặt Trăng, hai vùng bóng tối được chiếu lên Trái Đất: một vùng tối đen hoàn toàn ở trung tâm gọi là 'Bóng tối (Umbra)', và một vùng tối mờ hơn bao quanh gọi là 'Bóng nửa tối (Penumbra)'. Các đường thẳng biểu diễn tia sáng từ các mép của Mặt Trời đi qua các mép của Mặt Trăng để tạo ra các vùng bóng này."
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Hiện tượng bóng tối và bóng nửa tối quan sát được trong nhật thực là một minh chứng thực tế cho định luật truyền thẳng của ánh sáng, một nội dung cốt lõi của Quang hình học.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Sự hình thành bóng tối rõ nét (umbra) chủ yếu được giải thích bằng hiện tượng nhiễu xạ ánh sáng, một khái niệm thuộc lĩnh vực Quang sóng.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Quỹ đạo của ánh sáng bị bẻ cong khi đi gần các vật thể có khối lượng lớn như Mặt Trời là một hiện tượng thuộc lĩnh vực Cơ học cổ điển.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Việc sử dụng các mô hình tia sáng để dự đoán vùng có nhật thực toàn phần trên Trái Đất dựa trên nguyên tắc rằng trong môi trường trong suốt và đồng tính, ánh sáng truyền đi theo đường thẳng.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1001",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Việc hình thành bóng tối và bóng nửa tối là hệ quả trực tiếp của định luật truyền thẳng ánh sáng. Vì Mặt Trời là nguồn sáng rộng, các tia sáng xuất phát từ những điểm khác nhau của Mặt Trời sẽ tạo ra các vùng bóng khác nhau khi bị Mặt Trăng che khuất. Vùng không nhận được ánh sáng từ bất kỳ phần nào của Mặt Trời là bóng tối, còn vùng chỉ nhận được một phần ánh sáng là bóng nửa tối. Toàn bộ sự giải thích này đều dựa trên mô hình tia sáng đi thẳng, là nền tảng của Quang hình học."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Nhiễu xạ là hiện tượng sóng ánh sáng bị lệch khỏi phương truyền thẳng khi đi qua gần mép vật cản. Hiện tượng này làm cho bóng của vật cản bị nhòe đi chứ không tạo ra bóng tối rõ nét. Sự hình thành bóng tối rõ nét (umbra) trong nhật thực được giải thích một cách hiệu quả bằng mô hình tia sáng của Quang hình học, bỏ qua tính chất sóng của ánh sáng. Quang sóng nghiên cứu các hiện tượng như nhiễu xạ và giao thoa, thường thể hiện rõ ở các quy mô nhỏ hơn nhiều so với quy mô thiên văn."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Hiện tượng ánh sáng bị bẻ cong bởi trường hấp dẫn của các vật thể khối lượng lớn được gọi là hiệu ứng thấu kính hấp dẫn. Đây là một tiên đoán và hệ quả quan trọng của Thuyết tương đối rộng do Albert Einstein xây dựng, không thuộc lĩnh vực Cơ học cổ điển của Newton. Cơ học cổ điển không mô tả được sự tương tác giữa ánh sáng (vốn được coi là không có khối lượng nghỉ) và trường hấp dẫn. Do đó, việc gán hiện tượng này cho Cơ học cổ điển là một sai lầm về mặt bản chất vật lý."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Các nhà thiên văn học chính xác đã dựa vào định luật truyền thẳng của ánh sáng để xây dựng các mô hình hình học không gian. Bằng cách vẽ các đường thẳng tiếp tuyến chung từ Mặt Trời đến Mặt Trăng, họ có thể xác định chính xác hình dạng và đường đi của vùng bóng tối và bóng nửa tối trên bề mặt Trái Đất. Mô hình tia sáng này, mặc dù là một sự đơn giản hóa, lại cực kỳ hiệu quả và chính xác để dự báo các hiện tượng thiên văn vĩ mô như nhật thực và nguyệt thực, khẳng định vai trò của nguyên lý truyền thẳng ánh sáng."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c120002"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 16,
+                    "doan_thong_tin": "Trong một buổi thảo luận về lịch sử khoa học, một nhóm sinh viên đang phân tích những phát minh làm thay đổi thế giới trong thế kỷ 20. Chủ đề chính xoay quanh việc khám phá năng lượng hạt nhân và ứng dụng của nó, đặc biệt là sự ra đời của bom nguyên tử. Họ tranh luận về các nguyên lý vật lí nền tảng đã cho phép con người giải phóng một nguồn năng lượng khổng lồ từ hạt nhân nguyên tử, một bước ngoặt mang tính hai mặt cho nhân loại. Dưới đây là một số nhận định được đưa ra trong buổi thảo luận đó.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Nguyên tắc hoạt động cốt lõi của bom nguyên tử là dựa trên một phản ứng phân hạch hạt nhân dây chuyền có thể tự duy trì và phát triển theo cấp số nhân.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Thuyết tương đối rộng của Einstein là cơ sở lý thuyết trực tiếp được sử dụng để tính toán khối lượng tới hạn cần thiết cho một vụ nổ hạt nhân.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Năng lượng giải phóng trong bom nguyên tử đến từ quá trình tổng hợp (nhiệt hạch) các hạt nhân nhẹ, tương tự như quá trình cung cấp năng lượng cho Mặt Trời.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Việc nghiên cứu cấu trúc nguyên tử, hiện tượng phóng xạ và tương tác hạt nhân là những kiến thức tiên quyết thuộc vật lí nguyên tử và hạt nhân cho sự phát triển của bom.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1001",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Cơ chế của bom nguyên tử dựa trên phản ứng phân hạch dây chuyền. Khi một hạt nhân nặng (như $Uranium-235$ hoặc $Plutonium-239$) hấp thụ một neutron, nó sẽ vỡ ra thành các hạt nhân nhẹ hơn, đồng thời giải phóng năng lượng và một vài neutron mới. Các neutron này tiếp tục gây ra các phản ứng phân hạch khác, tạo thành một chuỗi phản ứng. Nếu khối lượng vật liệu phân hạch vượt qua khối lượng tới hạn, số lượng phản ứng sẽ tăng theo cấp số nhân trong một khoảng thời gian cực ngắn, dẫn đến một vụ nổ giải phóng năng lượng khổng lồ."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Thuyết tương đối hẹp với hệ thức $E = mc^2$ giải thích sự tương đương giữa khối lượng và năng lượng, lý giải tại sao một lượng nhỏ khối lượng bị hụt trong phản ứng hạt nhân lại có thể giải phóng một năng lượng khổng lồ. Tuy nhiên, thuyết tương đối rộng, vốn mô tả về lực hấp dẫn và sự cong của không-thời gian, không phải là lý thuyết trực tiếp để tính toán khối lượng tới hạn. Việc tính toán này dựa trên các khái niệm của vật lí hạt nhân và kỹ thuật lò phản ứng như tiết diện neutron, quãng đường tự do trung bình và hình học của khối vật liệu."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Quá trình cung cấp năng lượng cho Mặt Trời và trong các quả bom khinh khí (bom H) là phản ứng tổng hợp hạt nhân (nhiệt hạch), nơi các hạt nhân nhẹ như hydro kết hợp lại tạo thành hạt nhân nặng hơn. Ngược lại, bom nguyên tử (bom A) hoạt động dựa trên nguyên lý phân hạch hạt nhân, tức là sự phân chia một hạt nhân nặng thành các hạt nhân nhẹ hơn. Đây là hai quá trình hạt nhân hoàn toàn trái ngược nhau về bản chất, mặc dù cả hai đều giải phóng một lượng năng lượng rất lớn."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Toàn bộ lĩnh vực vật lí nguyên tử và hạt nhân là nền tảng cho việc chế tạo bom nguyên tử. Việc khám phá ra nguyên tử có hạt nhân, sự tồn tại của neutron, hiện tượng phóng xạ tự nhiên và nhân tạo, khả năng phân hạch của các hạt nhân nặng, và sự tương tác của neutron với vật chất là những cột mốc tri thức không thể thiếu. Nếu không có những hiểu biết sâu sắc này về cấu trúc và hành vi của thế giới vi mô, ý tưởng về việc giải phóng năng lượng hạt nhân sẽ không thể trở thành hiện thực."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "62fb104bac114ecd9c120005"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 17,
+                    "doan_thong_tin": "Một nhóm kỹ sư hải dương học đang sử dụng hệ thống sonar (định vị bằng sóng âm) để lập bản đồ đáy biển và theo dõi các sinh vật biển. Hệ thống này hoạt động bằng cách phát ra các xung âm và phân tích các tiếng vọng trở lại. Độ chính xác của phương pháp này phụ thuộc rất nhiều vào sự hiểu biết về cách âm thanh truyền trong nước biển. Tốc độ truyền âm trong nước không phải là hằng số, nó bị ảnh hưởng bởi các yếu tố như nhiệt độ, độ mặn và áp suất. Nhóm nghiên cứu cần hiệu chỉnh thiết bị của mình dựa trên các đặc tính này.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Các nguyên lý vật lí chi phối hoạt động của hệ thống sonar, đặc biệt là sự lan truyền của sóng âm trong môi trường nước, chủ yếu thuộc lĩnh vực nghiên cứu của Âm học.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Tốc độ truyền âm trong nước biển về cơ bản là chậm hơn so với tốc độ truyền âm trong không khí ở điều kiện tiêu chuẩn do nước có khối lượng riêng lớn hơn.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Sóng âm do hệ thống sonar phát ra là sóng ngang, vì các phần tử nước dao động vuông góc với phương truyền năng lượng của sóng.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Nếu nhóm kỹ sư di chuyển đến một vùng biển ấm hơn, họ sẽ phải hiệu chỉnh lại thiết bị vì tốc độ truyền âm trong nước sẽ tăng lên.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1010",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Âm học là một nhánh của vật lý học chuyên nghiên cứu về sự lan truyền của các sóng cơ học trong chất khí, chất lỏng và chất rắn, bao gồm các chủ đề như rung động, âm thanh, siêu âm và hạ âm. Công nghệ sonar là một ứng dụng trực tiếp và quan trọng của các nguyên tắc âm học, sử dụng sóng âm để điều hướng, đo khoảng cách và phát hiện các vật thể dưới nước. Do đó, việc tìm hiểu về tốc độ và đặc tính truyền âm trong các môi trường khác nhau là cốt lõi của lĩnh vực âm học."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Tốc độ truyền âm phụ thuộc vào tính đàn hồi và mật độ của môi trường. Mặc dù nước có mật độ lớn hơn không khí, nhưng nó lại có tính đàn hồi (khó nén hơn) cao hơn rất nhiều. Yếu tố này là quyết định, làm cho các dao động được truyền đi nhanh hơn đáng kể. Cụ thể, tốc độ âm thanh trong nước biển là khoảng $1500$ m/s, trong khi trong không khí chỉ khoảng $343$ m/s ở điều kiện tiêu chuẩn. Do đó, âm thanh truyền trong nước nhanh hơn trong không khí gần 5 lần."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Sóng âm trong chất lỏng và chất khí là sóng dọc. Điều này có nghĩa là phương dao động của các phần tử môi trường (ví dụ: phân tử nước) song song với phương truyền năng lượng của sóng. Sóng được tạo thành bởi các vùng nén và dãn xen kẽ nhau. Sóng ngang, nơi các hạt dao động vuông góc với phương truyền sóng, chỉ có thể tồn tại trong chất rắn vì chất rắn có lực liên kết đủ mạnh để chống lại biến dạng cắt. Chất lỏng và khí không có đặc tính này."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Nhiệt độ là một yếu tố quan trọng ảnh hưởng đến tốc độ truyền âm. Khi nhiệt độ của môi trường tăng lên, các phân tử trong môi trường đó sẽ có động năng lớn hơn và chuyển động nhanh hơn. Điều này dẫn đến việc các va chạm giữa các phân tử diễn ra thường xuyên hơn và năng lượng sóng được truyền đi hiệu quả hơn. Do đó, tốc độ âm thanh trong nước (cũng như trong hầu hết các môi trường khác) tăng lên khi nhiệt độ tăng. Việc hiệu chỉnh thiết bị sonar là cần thiết để đảm bảo tính chính xác của các phép đo."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "dung_sai",
+        "du_lieu": {
+            "loai_de": "dung_sai",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "630306b7910b817d8dc1e28d"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 18,
+                    "doan_thong_tin": "Trong một buổi hội thảo về 'Tương lai của công nghệ và xã hội', một diễn giả đang trình bày về các bước ngoặt lịch sử của các cuộc cách mạng công nghiệp. Diễn giả nhấn mạnh rằng mỗi cuộc cách mạng đều có đặc trưng riêng, từ sự ra đời của động cơ hơi nước, sự phổ biến của điện, sự tự động hóa của máy tính cho đến kỷ nguyên số hiện nay. Đặc biệt, cuộc cách mạng công nghiệp lần thứ tư (Công nghiệp 4.0) đang diễn ra với tốc độ vũ bão, làm thay đổi sâu sắc mọi mặt của đời sống. Dưới đây là một số nhận định được đưa ra trong buổi hội thảo.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "cac_y": [
+                        {
+                            "ky_hieu": "a",
+                            "noi_dung": "Cuộc cách mạng công nghiệp lần thứ nhất, khởi đầu với động cơ hơi nước, đã tạo ra nền tảng cho sản xuất cơ khí hóa nhưng có quy mô và tốc độ lan tỏa chậm hơn so với các cuộc cách mạng sau này.",
+                            "dung": true
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "noi_dung": "Sự ra đời của dây chuyền sản xuất hàng loạt sử dụng năng lượng điện là đặc trưng cốt lõi của Cách mạng công nghiệp lần thứ ba.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "noi_dung": "Cách mạng công nghiệp lần thứ tư về cơ bản chỉ là sự nâng cấp của cuộc cách mạng lần thứ ba, với trọng tâm là cải tiến máy tính và phần mềm.",
+                            "dung": false
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "noi_dung": "Tốc độ phát triển theo cấp số nhân và phạm vi ảnh hưởng toàn diện trên mọi lĩnh vực là đặc điểm khiến Cách mạng công nghiệp lần thứ tư vượt trội hơn hẳn so với ba cuộc cách mạng trước đó.",
+                            "dung": true
+                        }
+                    ],
+                    "dap_an_dung_sai": "1001",
+                    "giai_thich": [
+                        {
+                            "ky_hieu": "a",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Cuộc cách mạng công nghiệp lần thứ nhất (cuối thế kỷ 18) đã mở ra kỷ nguyên sản xuất cơ khí với động cơ hơi nước và máy dệt. Tuy nhiên, do hạn chế về công nghệ truyền thông và giao thông thời bấy giờ, sự lan tỏa của nó diễn ra tương đối chậm, chủ yếu tập trung ở Anh và một số nước châu Âu, Bắc Mỹ trong nhiều thập kỷ. So với tốc độ thay đổi chóng mặt của các cuộc cách mạng sau này, đặc biệt là cuộc cách mạng số, thì tốc độ và quy mô ảnh hưởng ban đầu của nó nhỏ hơn đáng kể."
+                        },
+                        {
+                            "ky_hieu": "b",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Đặc trưng cốt lõi của Cách mạng công nghiệp lần thứ hai (cuối thế kỷ 19, đầu thế kỷ 20) chính là việc ứng dụng năng lượng điện để tạo ra các dây chuyền sản xuất hàng loạt. Trong khi đó, Cách mạng công nghiệp lần thứ ba (từ giữa thế kỷ 20) được định hình bởi sự phát triển của điện tử, máy tính và công nghệ thông tin, dẫn đến tự động hóa sản xuất. Mệnh đề đã có sự nhầm lẫn nghiêm trọng về đặc trưng cơ bản giữa hai cuộc cách mạng công nghiệp này."
+                        },
+                        {
+                            "ky_hieu": "c",
+                            "ket_luan": "SAI",
+                            "noi_dung": "Cách mạng công nghiệp lần thứ tư không chỉ là một sự nâng cấp đơn thuần. Nó đại diện cho một sự thay đổi mô hình cơ bản, được đặc trưng bởi sự hội tụ và tích hợp của các công nghệ tiên tiến như Trí tuệ nhân tạo (AI), Internet vạn vật (IoT), Dữ liệu lớn (Big Data), và công nghệ sinh học. Sự khác biệt cốt lõi nằm ở việc xóa nhòa ranh giới giữa thế giới vật lý, kỹ thuật số và sinh học, tạo ra các hệ thống không gian mạng-vật lý, chứ không chỉ đơn thuần là cải tiến máy tính."
+                        },
+                        {
+                            "ky_hieu": "d",
+                            "ket_luan": "ĐÚNG",
+                            "noi_dung": "Đây chính là đặc điểm nổi bật nhất của Cách mạng công nghiệp lần thứ tư. Không giống như các cuộc cách mạng trước có tốc độ phát triển tuyến tính, Công nghiệp 4.0 phát triển theo cấp số nhân do bản chất kỹ thuật số và khả năng kết nối toàn cầu. Phạm vi ảnh hưởng của nó không chỉ giới hạn trong lĩnh vực sản xuất mà còn lan tỏa đến mọi khía cạnh của xã hội, từ kinh tế, y tế, giáo dục đến cách thức con người tương tác, làm cho tác động của nó sâu rộng và nhanh chóng hơn bất kỳ giai đoạn nào trước đây."
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "630306b7910b817d8dc1e291"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 19,
+                    "noi_dung": "Một sinh viên kỹ thuật đang nghiên cứu về cuộc Cách mạng Công nghiệp lần thứ nhất và tập trung vào vai trò của máy hơi nước. Phát minh của James Watt, với việc bổ sung bộ ngưng tụ riêng, đã cải tiến đáng kể hiệu suất so với máy của Thomas Newcomen, trở thành một động lực chính cho công nghiệp hóa. Theo các tài liệu lịch sử, James Watt đã được cấp bằng sáng chế cho cải tiến quan trọng này vào năm nào?",
+                    "dap_an": "1769",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "James Watt, một kỹ sư và nhà phát minh người Scotland, đã có những cải tiến đột phá cho máy hơi nước của Thomas Newcomen. Cải tiến quan trọng nhất của ông là việc phát minh ra bộ ngưng tụ riêng, giúp giảm đáng kể lượng nhiệt bị lãng phí và tăng hiệu suất của máy. Dựa trên phát minh này, ông đã nộp đơn và được cấp bằng sáng chế vào năm 1769. Phát minh này không chỉ tiết kiệm nhiên liệu mà còn mở đường cho việc ứng dụng rộng rãi máy hơi nước trong các nhà máy, hầm mỏ và giao thông vận tải, trở thành biểu tượng của Cách mạng Công nghiệp.\n**Vậy James Watt đã được cấp bằng sáng chế cho cải tiến quan trọng này vào năm 1769.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "66b9d85d235b1decf0b0c3b5"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 20,
+                    "noi_dung": "Một nhóm học sinh đang chuẩn bị cho một buổi hội thảo khoa học và đã soạn ra 5 phát biểu tổng kết về bản chất của Vật lí học như sau:\n(1) Đối tượng nghiên cứu của Vật lí là các dạng vận động của vật chất và năng lượng.\n(2) Mục tiêu của Vật lí là khám phá quy luật chi phối sự vận động của vật chất ở cấp độ vĩ mô, không xét đến cấp độ vi mô.\n(3) Học Vật lí giúp phát triển năng lực vật lí, bao gồm năng lực tìm hiểu tự nhiên, giải quyết vấn đề và vận dụng kiến thức.\n(4) Cấp độ vĩ mô dùng để mô tả các vật thể có kích thước rất nhỏ như nguyên tử, phân tử.\n(5) Các định luật vật lí là công cụ giúp con người giải thích và tiên đoán các hiện tượng tự nhiên.\nTrong các phát biểu trên, có bao nhiêu phát biểu là chính xác?",
+                    "dap_an": "3",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Để xác định số phát biểu đúng, ta cần phân tích từng nhận định. Phát biểu (1), (3), và (5) là chính xác. Cụ thể, Vật lí học nghiên cứu các dạng vận động của vật chất và năng lượng (1), việc học môn này giúp hình thành năng lực vật lí toàn diện (3), và các định luật vật lí có giá trị trong việc giải thích, tiên đoán hiện tượng tự nhiên (5). Ngược lại, phát biểu (2) sai vì Vật lí nghiên cứu quy luật ở cả cấp độ vi mô và vĩ mô. Phát biểu (4) cũng sai vì cấp độ vĩ mô mô tả các vật thể lớn, trong khi cấp độ vi mô mới mô tả các vật thể nhỏ như nguyên tử.\n**Vậy số phát biểu chính xác là 3.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "630306b7910b817d8dc1e293"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "thong_hieu",
+                    "stt": 21,
+                    "noi_dung": "Một nhà máy sản xuất đang xem xét nâng cấp hệ thống băng tải. Hiện tại, băng tải được vận hành bởi một động cơ hơi nước cũ có hiệu suất chỉ đạt $15\\%$. Để hoạt động, băng tải cần một công suất cơ học có ích là $18$ kW. Dự án đề xuất thay thế bằng một động cơ điện hiện đại với hiệu suất lên tới $90\\%$. Hỏi khi thay thế, lượng công suất điện năng đầu vào tiết kiệm được so với công suất nhiệt năng đầu vào của động cơ cũ là bao nhiêu kilowatt ($kW$)?",
+                    "dap_an": "100",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Hiệu suất của một động cơ được định nghĩa là tỉ số giữa công suất có ích và công suất toàn phần (công suất đầu vào), tức là $H = \\frac{P_{\\text{có ích}}}{P_{\\text{toàn phần}}}$. Từ đó, công suất đầu vào cần cung cấp cho mỗi động cơ được tính bằng $P_{\\text{toàn phần}} = \\frac{P_{\\text{có ích}}}{H}$. Đối với động cơ hơi nước, công suất nhiệt năng đầu vào là $P_1 = \\frac{18}{0,15} = 120$ kW. Đối với động cơ điện, công suất điện năng đầu vào là $P_2 = \\frac{18}{0,90} = 20$ kW. Do đó, lượng công suất tiết kiệm được khi thay thế là hiệu số giữa hai công suất đầu vào: $\\Delta P = P_1 - P_2 = 120 - 20 = 100$ kW.\n**Vậy lượng công suất điện năng đầu vào tiết kiệm được so với công suất nhiệt năng đầu vào của động cơ cũ là 100.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "66b9d85d235b1decf0b0c3b6"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 22,
+                    "noi_dung": "Để chuẩn bị cho buổi báo cáo tại câu lạc bộ khoa học, một học sinh đã soạn ra các luận điểm về quá trình phát triển của vật lí học. Hãy xem xét các nhận định sau và cho biết có bao nhiêu nhận định là chính xác:\n(1) Giai đoạn tiền Vật lí (trước thế kỉ XVI) đã sử dụng phương pháp thực nghiệm làm nền tảng.\n(2) Vật lí cổ điển (thế kỉ XVII - XIX) phát triển mạnh mẽ nhờ phương pháp thực nghiệm.\n(3) Vật lí hiện đại tập trung vào các mô hình lí thuyết để nghiên cứu thế giới vi mô.\n(4) Mọi ứng dụng của vật lí học trong công nghệ đều chỉ mang lại lợi ích cho nhân loại.",
+                    "dap_an": "2",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Để xác định số nhận định đúng, ta cần phân tích từng luận điểm. Nhận định (1) sai, vì giai đoạn tiền Vật lí chủ yếu dựa trên quan sát và suy luận chủ quan, chưa có phương pháp thực nghiệm. Nhận định (2) đúng, bởi vì vật lí cổ điển ra đời và phát triển rực rỡ chính nhờ vào việc áp dụng phương pháp thực nghiệm. Nhận định (3) cũng đúng, vì vật lí hiện đại (từ cuối thế kỉ XIX) tập trung vào các mô hình lí thuyết để giải thích các hiện tượng ở thế giới vi mô. Cuối cùng, nhận định (4) sai, vì bên cạnh lợi ích, các ứng dụng vật lí cũng có thể gây ra tác hại lớn như vũ khí hủy diệt hay ô nhiễm môi trường. Như vậy, có hai nhận định chính xác là (2) và (3).\n**Vậy có 2 nhận định chính xác.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "66b9d85d235b1decf0b0c3bb"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 23,
+                    "noi_dung": "Trong một buổi thảo luận của câu lạc bộ vật lí, các thành viên đã đưa ra một số nhận định về các phương pháp nghiên cứu khoa học. Hãy xem xét các phát biểu sau: (1) Phương pháp thực nghiệm là quá trình sử dụng thí nghiệm để kiểm chứng hoặc bác bỏ một giả thuyết, từ đó khám phá quy luật mới. (2) Phương pháp mô hình sử dụng các đối tượng thay thế để đơn giản hóa và nghiên cứu các hệ thống phức tạp. (3) Mọi mô hình vật lí như `$chất điểm$` đều phải có thể quan sát được bằng mắt thường. (4) Kết quả thực nghiệm thường được dùng để xác nhận hoặc điều chỉnh một mô hình lý thuyết. (5) Phương pháp lý thuyết có thể thay thế hoàn toàn phương pháp thực nghiệm trong mọi nghiên cứu. Hỏi có bao nhiêu nhận định trên là đúng về mặt khoa học?",
+                    "dap_an": "3",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Các nhận định đúng là (1), (2), và (4). Nhận định (1) mô tả chính xác bản chất của phương pháp thực nghiệm, nơi thí nghiệm là công cụ để xác minh giả thuyết. Nhận định (2) định nghĩa đúng về phương pháp mô hình, nhấn mạnh vai trò của việc tạo ra các phiên bản đơn giản hóa của thực tại để nghiên cứu. Nhận định (4) nêu bật mối quan hệ tương hỗ quan trọng giữa thực nghiệm và lý thuyết. Ngược lại, nhận định (3) sai vì các mô hình như `$chất điểm$` hay `$tia sáng$` là các khái niệm lý thuyết, trừu tượng, không phải vật thể hữu hình. Nhận định (5) cũng sai vì lý thuyết và thực nghiệm luôn bổ sung cho nhau, không thể thay thế hoàn toàn trong mọi trường hợp.\n**Vậy có 3 nhận định đúng về mặt khoa học.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "66b9d85d235b1decf0b0c3bc"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 24,
+                    "noi_dung": "Trong quá trình chuẩn bị cho một bài báo cáo về lịch sử khoa học, một nhà nghiên cứu đã tổng hợp các nhận định sau về các cuộc cách mạng công nghiệp: (1) Cuộc cách mạng công nghiệp lần thứ nhất được đặc trưng bởi sự thay thế sức người bằng máy móc cơ khí. (2) Cuộc cách mạng công nghiệp lần thứ hai gắn liền với việc tự động hóa các dây chuyền sản xuất. (3) Máy tính và điện tử là nền tảng của cuộc cách mạng công nghiệp lần thứ ba. (4) Trí tuệ nhân tạo và Internet vạn vật là những trụ cột của cách mạng công nghiệp lần thứ tư. Có bao nhiêu nhận định đúng trong các nhận định trên?",
+                    "dap_an": "3",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Để xác định số nhận định đúng, ta cần phân tích từng phát biểu dựa trên đặc trưng của các cuộc cách mạng công nghiệp. Nhận định (1) là chính xác vì Cách mạng công nghiệp lần thứ nhất (thế kỉ XVIII) khởi đầu với máy hơi nước và cơ giới hóa sản xuất. Nhận định (2) là sai, bởi vì tự động hóa là đặc trưng của lần thứ ba, trong khi lần thứ hai gắn với điện khí hóa. Nhận định (3) là đúng, cuộc cách mạng lần thứ ba (những năm 70 thế kỉ XX) dựa trên sự phát triển của công nghệ thông tin, máy tính và điện tử. Nhận định (4) cũng chính xác, vì Cách mạng công nghiệp 4.0 hiện nay xoay quanh các công nghệ số như trí tuệ nhân tạo, Internet vạn vật và robot. Do đó, có 3 nhận định đúng là (1), (3), và (4).\n**Vậy số nhận định đúng là 3.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "682a97c0bd4fa167196a0b87"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 25,
+                    "noi_dung": "Một nhóm học sinh trong câu lạc bộ khoa học đang thực hiện dự án nghiên cứu về sự bay hơi của cồn isopropyl để tìm ra cách bảo quản tốt nhất. Họ đề xuất 4 phương án thí nghiệm dưới đây để kiểm chứng các giả thuyết của mình:\n(1) So sánh tốc độ bay hơi của $10\\,ml$ cồn trong hai đĩa Petri giống nhau, một ở $25^\\circ C$ và một ở $40^\\circ C$.\n(2) So sánh $10\\,ml$ cồn trong đĩa Petri và $10\\,ml$ cồn trong ống nghiệm ở cùng điều kiện nhiệt độ và không có gió.\n(3) So sánh cồn trong chậu đặt ngoài trời có gió và cồn trong chậu khác đặt trong phòng ấm hơn nhưng không có gió.\n(4) So sánh $5\\,ml$ cồn trong cốc hẹp ở nhiệt độ phòng với $10\\,ml$ cồn trong đĩa rộng đặt trên bếp ấm.\nHỏi có bao nhiêu phương án được thiết kế đúng nguyên tắc khoa học (chỉ thay đổi một yếu tố duy nhất để kiểm chứng)?",
+                    "dap_an": "2",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Nguyên tắc cơ bản khi thiết kế thí nghiệm để kiểm tra sự phụ thuộc của một đại lượng vào một yếu tố là phải giữ cho tất cả các yếu tố khác không đổi. Xét các phương án: (1) là thiết kế đúng vì chỉ thay đổi nhiệt độ, các yếu tố khác (diện tích mặt thoáng, gió) được giữ nguyên. (2) là thiết kế đúng vì chỉ thay đổi diện tích mặt thoáng (đĩa và ống nghiệm), các yếu tố khác (thể tích, nhiệt độ, gió) không đổi. (3) là thiết kế sai vì thay đổi đồng thời hai yếu tố là gió và nhiệt độ. (4) là thiết kế sai vì thay đổi cùng lúc nhiều yếu tố: thể tích, diện tích mặt thoáng và nhiệt độ. Do đó, chỉ có 2 phương án đầu tiên là hợp lệ.\n**Vậy có 2 phương án được thiết kế đúng nguyên tắc khoa học.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "682a97c0bd4fa167196a0b85"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 26,
+                    "noi_dung": "Một nhóm học sinh đang chuẩn bị cho hội thi khoa học kỹ thuật và đã đề xuất một số ý tưởng nghiên cứu sau:\n(1) Sử dụng phần mềm máy tính để mô phỏng quỹ đạo của một hành tinh.\n(2) Lắp mạch điện với biến trở, điều chỉnh giá trị điện trở và đo cường độ dòng điện tương ứng.\n(3) Ghi chép lại nhiệt độ hàng ngày trong một tháng để tìm xu hướng biến đổi khí hậu.\n(4) Đun sôi các thể tích nước khác nhau và đo thời gian cần thiết để tìm mối liên hệ.\n(5) Đọc tài liệu về lịch sử phát triển của thuyết tương đối.\nCó bao nhiêu đề xuất trong danh sách trên sử dụng phương pháp nghiên cứu thực nghiệm?",
+                    "dap_an": "2",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Phương pháp nghiên cứu thực nghiệm trong vật lí đòi hỏi việc chủ động tạo ra các điều kiện, tiến hành thí nghiệm để quan sát, đo đạc và rút ra kết luận, trong đó các yếu tố có thể được kiểm soát. Xét các đề xuất: (1) là phương pháp mô hình, không phải thực nghiệm; (2) là một thí nghiệm thực tế vì có sự thay đổi biến số (điện trở) và đo đạc kết quả (cường độ dòng điện); (3) là phương pháp quan sát hiện tượng tự nhiên, không có sự can thiệp và kiểm soát biến số; (4) là một thí nghiệm vì chủ động thay đổi thể tích nước và đo thời gian; (5) là phương pháp nghiên cứu lí thuyết. Do đó, chỉ có đề xuất (2) và (4) là phương pháp thực nghiệm.\n**Vậy có 2 đề xuất sử dụng phương pháp nghiên cứu thực nghiệm.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tra_loi_ngan",
+        "du_lieu": {
+            "loai_de": "tra_loi_ngan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "682a97c0bd4fa167196a0b84"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 27,
+                    "noi_dung": "Một sinh viên đang chuẩn bị bài thuyết trình về tính liên ngành của Vật lí. Sinh viên đó liệt kê một danh sách các thiết bị công nghệ: kính lúp, la bàn từ, điện thoại thông minh, hệ thống định vị toàn cầu $GPS$, lò vi sóng, máy chụp cộng hưởng từ $MRI$, và pin năng lượng mặt trời. Để minh họa cho sự kết hợp kiến thức, sinh viên cần xác định các thiết bị phức hợp. Hỏi trong danh sách trên, có bao nhiêu thiết bị mà việc chế tạo và vận hành đòi hỏi sự kết hợp kiến thức của ít nhất hai phân ngành vật lí khác nhau?",
+                    "dap_an": "4",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Để xác định các thiết bị phức hợp, ta cần phân tích các nguyên lí vật lí nền tảng của chúng. Các thiết bị đòi hỏi sự kết hợp kiến thức từ ít nhất hai phân ngành vật lí trong danh sách là: điện thoại thông minh (kết hợp điện học, quang học, sóng điện từ), hệ thống $GPS$ (kết hợp cơ học và sóng điện từ), máy chụp cộng hưởng từ $MRI$ (kết hợp từ học, vật lí hạt nhân, sóng điện từ), và pin năng lượng mặt trời (kết hợp quang học và vật lí lượng tử). Các thiết bị còn lại như kính lúp, la bàn từ, và lò vi sóng chủ yếu hoạt động dựa trên một phân ngành chính.\n**Vậy có 4 thiết bị đòi hỏi sự kết hợp kiến thức của ít nhất hai phân ngành vật lí.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tu_luan",
+        "du_lieu": {
+            "loai_de": "tu_luan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "682a97c0bd4fa167196a0b8a"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 28,
+                    "noi_dung": "An, một học sinh lớp 10, đang thực hiện một thí nghiệm đơn giản trong phòng thực hành để tìm hiểu về sự chuyển hóa năng lượng, một trong những đối tượng nghiên cứu cốt lõi của Vật lí. An thả rơi tự do một quả cầu sắt nhỏ có khối lượng $m = 200\\,g$ từ đỉnh một tòa nhà cao $h = 45\\,m$. Bỏ qua sức cản của không khí và lấy gia tốc trọng trường là $g = 10 \\, m/s^2$. Để minh họa cho việc Vật lí nghiên cứu về các dạng vận động và năng lượng của vật chất, hãy xác định động năng của quả cầu ngay trước khi nó chạm đất.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Nguyên lý được áp dụng ở đây là định luật bảo toàn cơ năng, vì quả cầu rơi tự do và sức cản của không khí được bỏ qua. Theo đó, tổng cơ năng của vật tại mọi vị trí là không đổi. Chọn mốc thế năng tại mặt đất. Tại vị trí thả vật ở độ cao $h$, vận tốc ban đầu bằng 0, nên cơ năng của vật chính là thế năng cực đại: $W_1 = W_t = mgh$. Ngay trước khi chạm đất, độ cao bằng 0, nên cơ năng của vật là động năng cực đại: $W_2 = W_đ$. Áp dụng bảo toàn cơ năng $W_1 = W_2$, ta có $W_đ = mgh$. Thay số liệu $m = 200\\,g = 0.2\\,kg$, ta có: $W_đ = 0.2 \\times 10 \\times 45 = 90 \\, J$.\n**Vậy động năng của quả cầu ngay trước khi nó chạm đất là $90 \\, J$.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tu_luan",
+        "du_lieu": {
+            "loai_de": "tu_luan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "682a97c0bd4fa167196a0b88"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 29,
+                    "noi_dung": "Trong một dự án khoa học, một nhóm học sinh muốn kiểm chứng mô hình rơi tự do. Họ quyết định sử dụng phương pháp lí thuyết, áp dụng các định luật của Newton, để xây dựng một mô hình toán học nhằm dự đoán chuyển động của vật. Đối tượng nghiên cứu là một quả bi thép nhỏ, được thả rơi không vận tốc đầu từ đỉnh một tòa nhà cao $44.1$ mét. Giả sử sức cản của không khí là không đáng kể và lấy gia tốc trọng trường tại nơi làm thí nghiệm là $g = 9.8 \\, m/s^2$. Hãy tính toán thời gian rơi lý thuyết của quả bi thép cho đến khi chạm đất.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Để tính thời gian rơi lý thuyết, ta sử dụng phương trình chuyển động của vật rơi tự do không vận tốc đầu, một kết quả của phương pháp lí thuyết trong vật lý: $h = \\frac{1}{2}gt^2$. Trong đó, $h$ là độ cao, $g$ là gia tốc trọng trường và $t$ là thời gian rơi. Từ phương trình này, ta suy ra công thức tính thời gian: $t = \\sqrt{\\frac{2h}{g}}$. Thay số liệu từ bài toán vào: $h = 44.1 \\, m$ và $g = 9.8 \\, m/s^2$, ta có $t = \\sqrt{\\frac{2 \\times 44.1}{9.8}} = \\sqrt{9} = 3 \\, s$.\n**Vậy thời gian rơi lý thuyết của quả bi thép cho đến khi chạm đất là $3 \\, s$.**"
+                }
+            ]
+        }
+    },
+    {
+        "loai_de": "tu_luan",
+        "du_lieu": {
+            "loai_de": "tu_luan",
+            "cau_hoi": [
+                {
+                    "_id": {
+                        "$oid": "682a97c0bd4fa167196a0b8b"
+                    },
+                    "dvkt": "VATLITHPT2_1_1_1",
+                    "muc_do": "van_dung",
+                    "stt": 30,
+                    "noi_dung": "Trong một dự án khoa học tại trường, một nhóm học sinh muốn tái hiện thí nghiệm lịch sử của Galilei về sự rơi tự do. Họ chuẩn bị một quả bi sắt đặc và một quả bóng bàn có cùng đường kính rồi thả đồng thời từ tầng thượng của tòa nhà. Kết quả quan sát cho thấy quả bi sắt chạm đất trước quả bóng bàn, trái với dự đoán ban đầu dựa trên lý thuyết của Galilei. Hãy vận dụng kiến thức vật lí để xác định và gọi tên chính xác yếu tố vật lí nào đã bị bỏ qua trong điều kiện lí tưởng của Galilei nhưng lại trở nên quyết định, gây ra sự sai lệch trong kết quả thí nghiệm thực tế này.",
+                    "hinh_anh": {
+                        "co_hinh": false,
+                        "mo_ta": ""
+                    },
+                    "giai_thich": "Nguyên lí của Galilei phát biểu rằng mọi vật rơi tự do trong chân không với cùng một gia tốc, không phụ thuộc vào khối lượng. Tuy nhiên, thí nghiệm của nhóm học sinh được thực hiện trong không khí. Đối với quả bóng bàn, do có khối lượng nhỏ và diện tích bề mặt lớn, lực cản của không khí tác dụng lên nó là rất đáng kể so với trọng lực. Ngược lại, quả bi sắt có khối lượng lớn hơn nhiều nên ảnh hưởng của lực cản không khí là không đáng kể. Sự chênh lệch này làm cho gia tốc rơi thực tế của quả bóng bàn nhỏ hơn gia tốc rơi của quả bi sắt.\n**Vậy yếu tố vật lí chủ yếu gây ra sự khác biệt trong kết quả thí nghiệm là lực cản của không khí.**"
+                }
+            ]
+        }
+    }
+]

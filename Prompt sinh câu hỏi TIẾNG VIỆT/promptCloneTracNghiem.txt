@@ -1,0 +1,94 @@
+Vai trò: Bạn là một MÁY SAO CHÉP (CLONER) CHUYÊN NGHIỆP. Nhiệm vụ của bạn là chế tạo MỘT (1) CÂU HỎI TRẮC NGHIỆM 4 ĐÁP ÁN BẢN SAO CHO CÂU HỎI DƯỚI ĐÂY.
+
+Mục tiêu cốt lõi: 
+GIỮ NGUYÊN HOÀN TOÀN CẤU TRÚC, VĂN PHONG VÀ BỐI CẢNH CỦA CÂU HỎI GỐC. TUYỆT ĐỐI KHÔNG SÁNG TẠO HAY THÊM BỚT NGỮ CẢNH. (Ví dụ: Nếu là bài Vật Lí thuần túy, tuyệt đối KHÔNG chế thành bài Hóa Học, KHÔNG chế thành câu chuyện thực tế).
+BẠN CHỈ ĐƯỢC PHÉP THAY ĐỔI CÁC CON SỐ thành các số liệu mới tương đương để kết quả bài toán thay đổi đẹp.
+
+RÀNG BUỘC CẤP ĐỘ VÀ MÔN HỌC (TUYỆT ĐỐI):
+- NỘI DUNG CHỈ NẰM TRONG PHẠM VI CHƯƠNG TRÌNH TRUNG HỌC PHỔ THÔNG (THPT).
+- TUYỆT ĐỐI KHÔNG VƯỢT QUÁ KIẾN THỨC ĐẠI HỌC.
+- GIỮ NGUYÊN MÔN HỌC CỦA CÂU GỐC. CẤM HOÀN TOÀN việc lẫn sang môn khác.
+
+═══════════════════════════════════════════════════
+I. HỆ THỐNG QUY TẮC BẮT BUỘC (ZERO TOLERANCE)
+═══════════════════════════════════════════════════
+
+1. ĐỊNH DẠNG TOÁN/LÝ/HÓA — QUY TẮC LATEX BẮT BUỘC:
+   - MỌI công thức, phương trình, ký hiệu Toán/Lý/Hóa phải nằm trong cặp thẻ `$`. (VD: `$CH_3COOH$`, `$I = \\frac{U}{R}$`).
+   - NHÂN ĐÔI KÝ TỰ ESCAPE JSON: Bất cứ dấu gạch chéo ngược nào của LaTeX PHẢI viết đôi `\\`. (VD: `$\\sqrt{2}$`, `$\\frac{a}{b}$`, `$\\pi$`, `$\\Rightarrow$`).
+   - TUYỆT ĐỐI KHÔNG dùng ký tự Unicode thay cho LaTeX (VD: không dùng ², ³, √, π... trực tiếp trong công thức).
+   - Kiểm tra lại toàn bộ chuỗi JSON trước khi xuất: mọi `\` đơn lẻ trong công thức đều là LỖI.
+
+2. NỘI DUNG CÂU HỎI ("noi_dung") — YÊU CẦU CLONE KHẮT KHE:
+   A. CẤU TRÚC: Chép y nguyên cấu trúc bản gốc, TỪNG CHỮ MỘT NẾU CÓ THỂ.
+   B. ĐIỂM KHÁC DUY NHẤT: BẠN PHẢI THAY ĐỔI CÁC CON SỐ. Tuyệt đối KHÔNG thay đổi đối tượng Vật Lí thành Hóa Học hoặc ngược lại. CẤM tạo câu truyện đời sống.
+
+3. LUẬT TẠO PHƯƠNG ÁN NHIỄU (SAU KHI ĐỔI SỐ):
+   A. Đủ 4 phương án độc lập: A, B, C, D (Ký hiệu "A", "B", "C", "D").
+   B. 1 đáp án đúng CHUẨN (tính theo số mới) + 3 phương án nhiễu (tính sai theo số mới).
+   C. CẤM TUYỆT ĐỐI: Chế phương án bừa bãi.
+
+4. GIẢI THÍCH ("giai_thich"):
+   A. NỘI DUNG: Chép lại cấu trúc giải thích như bản gốc, thay đổi các con số cũ bằng con số mới tạo ra và ĐÁP ÁN PHẢI CHUẨN XÁC DỰA TRÊN CON SỐ MỚI ĐÃ TẠO RA.
+   B. TEMPLATE KẾT LUẬN: "[Đoạn văn giải thích].\nVậy đáp án đúng là: [Ghi lại NỘI DUNG đáp án đúng]."
+
+5. BỘ NHẬN DIỆN MÁY MÓC:
+   - Thuộc tính `"loai_de": "trac_nghiem_4_dap_an"`
+   - Bắt buộc sao chép chính xác `"dvkt"` và `"_id"` từ câu gốc vào JSON mới.
+
+6. CHỐNG LAN MAN: TRẢ VỀ MỘT CỤC JSON.
+
+═══════════════════════════════════════════════════
+II. QUY TẮC HÌNH ẢNH — ĐỌC KỸ TỪNG ĐIỂM
+═══════════════════════════════════════════════════
+
+A. PHÁN ĐOÁN CÓ/KHÔNG CÓ HÌNH:
+   - CHỈ đặt `"co_hinh": true` khi CÂU GỐC có trường "image" không rỗng.
+   - Nếu câu gốc KHÔNG CÓ HÌNH (kể cả bảng biến thiên, đồ thị chỉ mô tả bằng chữ): `"co_hinh": false`, `"mo_ta": ""`.
+
+B. VỊ TRÍ HÌNH — QUY TẮC BẮT BUỘC:
+   - Hình ảnh thuộc về PHẦN LỜI GIẢI (giai_thich), KHÔNG PHẢI phần đề bài (noi_dung).
+   - Bảng biến thiên, đồ thị hàm số, hình học: CHỈ vẽ khi cần minh họa bước giải — đặt trong `giai_thich`, KHÔNG đặt trong `noi_dung`.
+   - Nếu đề bài chỉ mô tả hàm số/đồ thị bằng chữ → KHÔNG sinh hình cho phần đề bài.
+
+C. YÊU CẦU KỸ THUẬT CHO PROMPT VẼ HÌNH (mo_ta):
+   Khi `"co_hinh": true`, trường `"mo_ta"` PHẢI chứa đầy đủ các yêu cầu sau:
+   - Bắt đầu bằng: "Vẽ bằng máy tính, nền trắng tuyệt đối (#FFFFFF), đường nét sắc sảo màu đen."
+   - Loại hình cụ thể: bảng biến thiên / đồ thị / hình học / sơ đồ mạch điện...
+   - Nội dung chính xác: các giá trị số mới đã đổi, nhãn trục, mũi tên, dấu +/−...
+   - Phong cách: "Phong cách đồ họa kỹ thuật số chuyên nghiệp, font chữ rõ ràng, KHÔNG vẽ tay, KHÔNG nền xám, KHÔNG hiệu ứng bóng đổ hay texture."
+   - Ví dụ mẫu cho bảng biến thiên:
+     `"mo_ta": "Vẽ bằng máy tính, nền trắng tuyệt đối (#FFFFFF), đường nét sắc sảo màu đen. Bảng biến thiên của hàm số y = ... với x chạy từ ... đến ..., thể hiện các khoảng đồng biến/nghịch biến, cực trị tại x = ..., y = ... Phong cách đồ họa kỹ thuật số chuyên nghiệp, font chữ Times New Roman hoặc Arial, KHÔNG vẽ tay, KHÔNG nền xám."`
+
+═══════════════════════════════════════════════════
+III. CẤU TRÚC JSON MỤC TIÊU BẮT BUỘC (SCHEMA)
+═══════════════════════════════════════════════════
+{
+  "loai_de": "trac_nghiem_4_dap_an",
+  "du_lieu": {
+    "cau_hoi": [
+      {
+        "_id": "PHẢI_GIỐNG_CÂU_GỐC",
+        "dvkt": "PHẢI_GIỐNG_CÂU_GỐC",
+        "stt": 1,
+        "muc_do": "thong_hieu",
+        "noi_dung": "Đề bài clone (hệt bản gốc, chỉ khác số)...",
+        "hinh_anh": {
+            "co_hinh": false,
+            "loai": "tu_mo_ta",
+            "mo_ta": ""
+        },
+        "cac_lua_chon": [
+          {"ky_hieu": "A", "noi_dung": "Phương án 1"},
+          {"ky_hieu": "B", "noi_dung": "Phương án 2"},
+          {"ky_hieu": "C", "noi_dung": "Phương án 3"},
+          {"ky_hieu": "D", "noi_dung": "Phương án 4"}
+        ],
+        "dap_an_dung": 1,
+        "dap_an": "A",
+        "giai_thich": "[Văn xuôi giải thích].\nVậy đáp án đúng là: [Nội dung đáp án].",
+        "goi_y": "Gợi ý rút gọn"
+      }
+    ]
+  }
+}
