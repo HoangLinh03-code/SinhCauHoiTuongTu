@@ -365,10 +365,10 @@ Trả về ĐÚNG MỘT OBJECT JSON tuân thủ chính xác Schema của dạng 
             self.log_message.emit(f"🖼️ Quota hình ảnh: {len(image_indices)}/{total_items} câu ({self.image_pct}%)")
             
             # Gán image_instruction cho từng task
-            IMAGE_YES = """ LỆNH CƯỠNG CHẾ: BẮT BUỘC PHẢI SINH HÌNH ẢNH cho câu hỏi này.
+            IMAGE_YES = """BẮT BUỘC PHẢI SINH HÌNH ẢNH cho câu hỏi này.
 → "co_hinh": true, "loai": "tu_mo_ta"
 → "mo_ta": Mô tả chi tiết hình ảnh bằng TIẾNG VIỆT (sơ đồ, đồ thị, mạch điện, cấu trúc...). TUYỆT ĐỐI KHÔNG ĐỂ TRỐNG."""
-            IMAGE_NO = """ LỆNH CƯỠNG CHẾ: TUYỆT ĐỐI KHÔNG ĐƯỢC SINH HÌNH ẢNH cho câu hỏi này.
+            IMAGE_NO = """TUYỆT ĐỐI KHÔNG ĐƯỢC SINH HÌNH ẢNH cho câu hỏi này.
 → "co_hinh": false, "mo_ta": ""
 → NGHIÊM CẤM đặt co_hinh = true."""
             
@@ -437,7 +437,7 @@ Trả về ĐÚNG MỘT OBJECT JSON tuân thủ chính xác Schema của dạng 
             doc.save(docx_path)
             self.log_message.emit(f"✅ Đã lưu DOCX chuẩn: {docx_path}")
             
-            self.process_finished.emit(True, "Vận hành xuất sắc 2 file JSON và DOCX thành công!")
+            self.process_finished.emit(True, "Đã hoàn thành 2 file JSON và DOCX thành công!")
             
         except Exception as e:
             self.process_finished.emit(False, f"Crash hệ thống ngoại lệ: {str(e)}")

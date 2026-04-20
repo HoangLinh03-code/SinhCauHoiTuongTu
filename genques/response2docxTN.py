@@ -1410,7 +1410,7 @@ def process_dung_sai_smart_batch(file_path, base_prompt, file_name, project_id, 
     # ==============================================================================
     # 2. CHIA BATCH (BATCH_SIZE = 10)
     # ==============================================================================
-    BATCH_SIZE = 10  # <--- CHÌA KHÓA AN TOÀN CỦA BẠN LÀ Ở ĐÂY
+    BATCH_SIZE = 10 
     batches = []
     current_start = 1
     while current_start <= total_questions:

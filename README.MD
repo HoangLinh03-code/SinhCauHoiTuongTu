@@ -22,7 +22,40 @@ Mục tiêu cốt lõi của phần mềm là tự động hóa quy trình nhân
 
 ## 2. KIẾN TRÚC MÃ NGUỒN VÀ CHỨC NĂNG MODULE
 
-Hệ thống được thiết kế theo hướng module hóa (Modular Design) để tối ưu khả năng bảo trì và nâng cấp.
+### Sơ đồ cấu trúc thư mục
+
+Cấu trúc tổ chức tập tin của dự án được sắp xếp như sau:
+
+```
+SinhCauHoiTuongTu/
+├── Prompt sinh câu hỏi TIẾNG VIỆT/     # Thư mục chứa các mẫu lệnh văn bản cấu hình AI
+│ ├── promptDungSai.txt                 # Lệnh quy định cấu trúc cho câu hỏi Đúng/Sai
+│ ├── promptKhoiTao_V1.txt              # Lệnh khởi tạo bối cảnh và vai trò hệ thống
+│ ├── promptTracNghiem.txt              # Lệnh quy định cấu trúc cho câu hỏi Trắc nghiệm
+│ ├── promptTraLoiNgan.txt              # Lệnh quy định cấu trúc cho câu hỏi Trả lời ngắn
+│ └── promptTuLuan.txt                  # Lệnh quy định cấu trúc cho câu hỏi Tự luận
+├── generated_similar/                  # Thư mục mặc định chứa các tệp tin đầu ra sau khi sinh
+│ ├── VATLITHPT2_1_1_converted.docx     # Tệp tin Word (DOCX) kết quả mẫu
+│ ├── VATLITHPT2_1_1_converted.json     # Tệp tin JSON kết quả mẫu tuân thủ Schema
+│ ├── toan_thpt_3_12_4_converted.docx   # Tệp tin Word (DOCX) kết quả mẫu
+│ └── toan_thpt_3_12_4_converted.json   # Tệp tin JSON kết quả mẫu tuân thủ Schema
+├── genques/                            # Thư mục chứa các module lõi xử lý logic nội bộ
+│ ├── response2docxTN.py                # Module biên dịch LaTeX, định dạng Word và xuất DOCX
+│ ├── schema.py                         # Module khai báo cấu trúc JSON bắt buộc AI phải trả về
+│ └── text2Image.py                     # Module gọi API tạo hình ảnh từ văn bản mô tả
+├── .env                                # Tệp tin ẩn cấu hình môi trường (Chứa khóa API Google Cloud - Cần tự tạo)
+├── README.MD                           # Tài liệu hướng dẫn kỹ thuật và kiến trúc (Tệp tin này)
+├── app_clone_questions.py              # Mã nguồn phụ trợ cho tính năng nhân bản câu hỏi
+├── app_similar_question_debug.py       # Mã nguồn chuyên dụng dành cho quá trình gỡ lỗi (Debug)
+├── app_similar_questions.py            # Tập tin khởi chạy chính - Nơi chứa mã nguồn giao diện (PyQt5)
+├── callAPI.py                          # Module phụ trách xác thực, kết nối và giao tiếp với Google Vertex AI
+├── requirements.txt                    # Danh sách các thư viện Python phụ thuộc cần cài đặt
+└── split_json.py                       # Mã nguồn công cụ phụ trợ để chia nhỏ các file JSON lớn
+```
+
+### Chức năng chi tiết của các Module chính
+
+Hệ thống được thiết kế theo hướng module hóa (Modular Design) để tối ưu khả năng bảo trì:
 
 1. app_similar_questions.py (Core & GUI)
 
@@ -77,7 +110,42 @@ Quy trình vòng đời của một tác vụ sinh câu hỏi diễn ra qua 5 gi
 
 ---
 
-## 4. HƯỚNG DẪN CÀI ĐẶT MÔI TRƯỜNG CỤC BỘ
+## 4. CƠ CHẾ XỬ LÝ VÀ PHÂN BỔ HÌNH ẢNH TRONG SCHEMA (IMAGE LOGIC)
+
+Thiết kế Schema của hệ thống yêu cầu rất nhiều object hình ảnh độc lập. Điều này xuất phát từ nhu cầu sư phạm chuyên sâu: Một câu hỏi kiểm tra hoàn chỉnh (đặc biệt là Toán, Lý, Hóa) thường không chỉ có một hình ảnh duy nhất.
+
+### 4.1. Phân loại các khối hình ảnh trong Schema
+
+Hệ thống chia hình ảnh thành 3 cấp độ tương ứng với 3 thành phần của một câu hỏi:
+
+- "hinh_anh":
+  Được chèn ngay dưới nội dung câu hỏi. Dùng để mô tả đề bài (Ví dụ: Sơ đồ mạch điện ban đầu, hình vẽ vật thể cơ học gốc).
+
+- "hinh_anh_giai_thich":
+  Được chèn riêng vào khu vực phần Lời giải. Dùng để minh họa cho các bước giải (Ví dụ: Biểu diễn thêm các vector lực, vẽ đường phụ trong hình học, đồ thị trạng thái biến thiên). AI phải tách biệt hình này với hình của đề bài.
+
+- "hinh_anh_goi_y":
+  Được chèn vào phần Gợi ý độc lập. Cung cấp hình ảnh mang tính chất tư duy (Mindmap, sơ đồ khối tóm tắt kiến thức) để học sinh tự suy luận ra đáp án.
+
+### 4.2. Cấu trúc nội bộ của một Object Hình Ảnh
+
+Mỗi object hình ảnh phía trên đều tuân thủ một cấu trúc lõi giống hệt nhau bao gồm các tham số:
+
+- co_hinh (Boolean): Biến cờ (Flag) xác định xem tại vị trí này có bắt buộc sinh hình không (True/False).
+- loai (String): Định nghĩa kiểu sinh hình, mặc định là "tu_mo_ta" để kích hoạt module text2Image.
+- mo_ta (String): Mô tả hình ảnh siêu chi tiết bằng Tiếng Việt để AI Text-to-Image vẽ.
+- mo_ta_en (String): Phiên bản mô tả bằng Tiếng Anh. Dùng cho luồng câu hỏi song ngữ (có kèm translate_en).
+
+### 4.3. Cơ chế kích hoạt và An toàn (Fallback Mechanism)
+
+Module response2docxTN.py thực thi hình ảnh rất chặt chẽ thông qua hàm "generate_or_get_image":
+
+- Gọi API sinh ảnh: Nếu co_hinh là True và có nội dung trong mo_ta, hệ thống gửi lệnh qua genques/text2Image.py. Hình ảnh trả về dạng chuỗi Byte sẽ được chèn thẳng vào Word với kích thước chuẩn (rộng 3.5 Inches) và căn giữa.
+- Cơ chế Fallback (Giữ chỗ - Placeholder): Nếu máy chủ sinh ảnh bị lỗi (Server Timeout), hoặc AI đặt co_hinh = True nhưng lại quên ghi nội dung mô tả, hệ thống sẽ KHÔNG báo lỗi crash phần mềm. Thay vào đó, nó sẽ in một dòng chữ cảnh báo In đậm, in nghiêng, màu đỏ vào file Word (Ví dụ: [VI: Cần chèn hình: ...]). Cơ chế này giúp giáo viên rà soát file Word có thể dễ dàng nhận biết vị trí cần chèn hình ảnh minh họa bổ sung bằng tay.
+
+---
+
+## 5. HƯỚNG DẪN CÀI ĐẶT MÔI TRƯỜNG
 
 Để kế thừa và vận hành dự án, máy tính phát triển cần đáp ứng các yêu cầu sau:
 
@@ -87,13 +155,15 @@ Quy trình vòng đời của một tác vụ sinh câu hỏi diễn ra qua 5 gi
 - Pandoc: YÊU CẦU BẮT BUỘC để biên dịch công thức Toán. Cần cài đặt Pandoc vào hệ thống (System PATH) HOẶC đặt thư mục chứa file `pandoc.exe` cùng cấp với file script đang chạy.
 
 2. Cài đặt thư viện Python:
-   Mở Terminal/Command Prompt tại thư mục gốc của dự án và chạy lệnh:
 
-   > pip install -r requirements.txt
+- Mở Terminal/Command Prompt tại thư mục gốc của dự án và chạy lệnh:
+  ```
+  pip install -r requirements.txt
+  ```
 
 ---
 
-## 5. HƯỚNG DẪN VẬN HÀNH DÀNH CHO NGƯỜI DÙNG CỐI
+## 6. HƯỚNG DẪN VẬN HÀNH DÀNH
 
 1. Khởi động phần mềm:
    Chạy lệnh `python app_similar_questions.py` từ Terminal. Giao diện PyQt5 sẽ hiển thị.
@@ -123,7 +193,7 @@ Quy trình vòng đời của một tác vụ sinh câu hỏi diễn ra qua 5 gi
 
 ---
 
-## 6. LƯU Ý
+## 7. LƯU Ý
 
 - Quản lý Lỗi LaTeX: Hàm `clean_latex_math` trong `response2docxTN.py` chứa hàng loạt Regex để chuẩn hóa các lỗi gõ LaTeX thường gặp của AI (ví dụ escape sequence bị nhân đôi `\\\\frac`). Nếu phát hiện công thức nào không render được, cần bổ sung Regex xử lý vào hàm này trước khi gửi sang Pandoc.
 - Giới hạn Token: Nếu CSDL gốc chứa câu hỏi quá dài, AI có thể trả về lỗi hoặc ngắt quãng JSON. Cần điều chỉnh `BATCH_SIZE` trong file kết xuất hoặc giảm số lượng câu hỏi trong file gốc.
